@@ -1,9 +1,13 @@
 ---
-title: "About"
+title: "Über mich"
+image: assets/images/sarah_zeller.jpg
+about:
+  template: jolla
+  image-width: 10em
+  image-shape: round
+
 ---
 
-About this site
+Schön, dass du da bist. Ich bin Sarah und lese für mein Leben gern. Deswegen habe ich das Lektorieren zu meinem Beruf gemacht.
 
-```{r}
-1 + 1
-```
+Lektorin ADM

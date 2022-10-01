@@ -1,11 +1,25 @@
 ---
-title: "my-website"
+title: ""
+
+format: 
+  html:
+    page-layout: custom
 ---
 
-This is a Quarto website.
+::: grid
+::: g-col-1
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {.g-col-4 .d-flex .align-items-center}
+::: wrapper
+# Ich hole das Beste aus Deinem Text.
 
-```{r}
-1 + 1
-```
+Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen!
+:::
+:::
+
+::: g-col-6
+![](assets/images/keyboard.jpg)
+:::
+
+:::
