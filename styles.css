@@ -5,5 +5,14 @@
 */
 
 .card {
-  background-color: lightgrey
+  background-color: lightgrey;
+}
+
+#quarto-content .container, 
+#quarto-content .container-fluid {
+  margin-bottom: 5rem;
+}
+
+#quarto-content .container {
+  padding: 0 1rem;
 }
