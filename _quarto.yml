@@ -3,7 +3,8 @@ project:
   
 
 website:
-  title: "Lektorat \nSarah Zeller"
+  favicon: assets/images/pen-nib-solid.svg
+  title: "Lektorat Zeller"
   page-footer: "Sarah Zeller"
   navbar:
     left:
