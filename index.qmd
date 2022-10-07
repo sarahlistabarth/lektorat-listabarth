@@ -1,17 +1,14 @@
 ---
-title: ""
-
 format: 
   html:
     page-layout: custom
 ---
 
-::: container-fluid
+::: {.container-fluid}
 ::: grid
 ::: {.g-col-12 .g-col-md-4 .g-start-md-2 .d-flex .align-items-center .px-3}
 ::: wrapper
 # Ich hole das Beste aus Deinem Text.
-
 
 Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen!
 :::
@@ -23,10 +20,18 @@ Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen
 :::
 :::
 
-::: container
+::: {.container}
 ::: grid
-::: {.g-col-12 .text-center}
+::: {.g-col-8 .g-start-3 .text-center}
 # Mein Angebot
+:::
+:::
+
+::: grid
+::: {.g-col-12 .g-col-md-10 .g-start-md-3 .px-1}
+Wie umfangreich darf ich dich bei Deinem Text unterstützen? 
+Diese Pakete biete ich im Lektorat von Texten an. 
+So holen wir das Beste aus Deinem Text. 
 :::
 :::
 
@@ -34,15 +39,19 @@ Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen
 ::: {.g-col-12 .g-col-md-5 .g-start-md-2}
 ::: card
 ::: {.card-title .text-center}
-### Lektorat light
+### Lektorat
 :::
+
 ::: {.card-subtitle .text-center}
-ab 1,3 ct / Wort
+ab 2,6 ct / Wort
 :::
+
 ::: card-body
--   Anpassung von Rechtschreibung und Grammatik
+-   Anpassung von Rechtschreibung, Grammatik und Zeichensetzung
 -   Vereinheitlichung des Schreibstils
 -   Anpassung des Schreibstils an die Literaturart
+-   Rückmeldung zu Logik und Spannungsbogen
+-   Rückmeldung zu rotem Faden und Vollständigkeit
 :::
 :::
 :::
@@ -50,22 +59,48 @@ ab 1,3 ct / Wort
 ::: {.g-col-12 .g-col-md-5 .g-gap-md-1}
 ::: card
 ::: {.card-title .text-center}
-### Lektorat
-
+### Lektorat light
 :::
+
 ::: {.card-subtitle .text-center}
-ab 2,6 ct / Wort
+ab 1,3 ct / Wort
 :::
-::: {.card-body}
 
--   Anpassung von Rechtschreibung und Grammatik
+::: card-body
+-   Anpassung von Rechtschreibung, Grammatik und Zeichensetzung
 -   Vereinheitlichung des Schreibstils
 -   Anpassung des Schreibstils an die Literaturart
--   Rückmeldung zu Logik und Spannungsbogen
--   Rückmeldung zu rotem Faden und Vollständigkeit
+:::
+:::
+:::
+:::
+:::
 
+
+
+
+::: {.container-fluid}
+::: {.grid}
+::: {.g-col-12 .text-center}
+# Hi, ich bin Sarah!
 :::
 :::
+
+::: grid
+::: {.g-col-12 .g-col-md-4 .g-start-md-2}
+![](assets/images/sarah_zeller.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-gap-md-1}
+### Und Überarbeiten ist genau meins.
+<!-- Während Schreiben für mich interessant ist, liebe ich es zu überarbeiten.  -->
+Vielen fällt es nicht direkt auf, wenn ein Komma fehlt, eine Schreibweise nicht konsistent ist oder im Satz ein Füllwort steht; aber unbewusst ist da etwas, das nicht ganz passt. 
+
+Hier komme ich ins Spiel: 
+Ich finde die Kleinigkeiten, über die Lesende noch unbewusst stolpern. 
+Indem ich sie anpasse, wird Dein Text runder. 
+
+
 :::
 :::
 :::
