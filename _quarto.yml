@@ -3,13 +3,16 @@ project:
   
 
 website:
-  title: "Lektorat Sarah Zeller"
+  title: "Lektorat \nSarah Zeller"
   page-footer: "Sarah Zeller"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        file: index.qmd
+      - file: about.qmd
+    right:
+      - text: "{{< fa envelope >}}"
+        href: mailto:s.zeller@posteo.net
   search: false
   cookie-consent: 
     type: express
