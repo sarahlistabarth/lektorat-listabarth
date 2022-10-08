@@ -1,0 +1,6 @@
+title: Pandoc abbreviations
+author: dsanson
+version: 1.0.0
+contributes:
+  shortcodes:
+  - pandoc-abbreviations.lua

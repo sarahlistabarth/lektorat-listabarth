@@ -1,0 +1,6 @@
+title: My abbreviation
+author: Me
+version: 1.0.0
+contributes:
+  shortcodes:
+  - my-abbreviations.lua
