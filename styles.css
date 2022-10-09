@@ -26,8 +26,8 @@
   width: auto;
 }
 
-/* Sets the marker to a ✔️ emoji character */
-ul { list-style-type: "✔️  "; }
+/* Sets the marker to a ✔️ emoji character in cards*/
+.card ul { list-style-type: "✔️  "; }
 
 /* change button style */
 .btn {
