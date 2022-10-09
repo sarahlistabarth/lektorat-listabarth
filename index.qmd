@@ -2,14 +2,14 @@
 format: 
   html:
     page-layout: custom
-
 ---
 
-::: container-fluid
+::: {.container-fluid .bg-light}
 ::: grid
 ::: {.g-col-12 .g-col-md-4 .g-start-md-2 .d-flex .align-items-center .px-3}
 ::: wrapper
 # Ich hole das Beste aus Deinem Text.
+
 Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen!
 :::
 :::
@@ -20,7 +20,7 @@ Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen
 :::
 :::
 
-::: container
+::: {.container .bg-dark}
 ::: grid
 ::: {.g-col-8 .g-start-3 .text-center}
 # Mein Angebot
@@ -29,15 +29,35 @@ Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen
 
 ::: grid
 ::: {.g-col-12 .g-col-md-8 .g-start-md-3 .px-1}
-Wie umfangreich darf ich dich bei Deinem Text unterstützen? Diese Pakete biete ich im Lektorat von Texten an. So holen wir das Beste aus Deinem Text.
+Wie umfangreich darf ich dich bei Deinem Text unterstützen? 
+Diese Pakete biete ich im Lektorat von Texten an.
+
 :::
 :::
 
 ::: grid
-::: {.g-col-12 .g-col-md-5 .g-start-md-2}
+::: {.g-col-12 .g-col-md-5 .g-start-md-2 .px-1}
 ::: card
 ::: {.card-title .text-center}
-### Lektorat
+### Lektorat light
+:::
+
+::: {.card-subtitle .text-center}
+ab 1,3 ct / Wort
+:::
+
+::: card-body
+-   Anpassung von Rechtschreibung, Grammatik und Zeichensetzung
+-   Vereinheitlichung des Schreibstils
+<!-- -   Anpassung des Schreibstils an die Literaturart -->
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-5 .px-1}
+::: card
+::: {.card-title .text-center}
+### Lektorat Belletristik
 :::
 
 ::: {.card-subtitle .text-center}
@@ -53,52 +73,40 @@ ab 2,6 ct / Wort
 :::
 :::
 :::
-
-::: {.g-col-12 .g-col-md-5 }
-::: card
-::: {.card-title .text-center}
-### Lektorat light
-:::
-
-::: {.card-subtitle .text-center}
-ab 1,3 ct / Wort
-:::
-
-::: card-body
--   Anpassung von Rechtschreibung, Grammatik und Zeichensetzung
--   Vereinheitlichung des Schreibstils
--   Anpassung des Schreibstils an die Literaturart
-:::
-:::
-:::
 :::
 :::
 
-::: container-fluid
+::: {.container-fluid .bg-light}
 ::: grid
 ::: {.g-col-12 .text-center}
-
 :::
 :::
 
-::: {.grid}
+::: grid
 ::: {.g-col-12 .g-col-md-4 .g-start-md-2}
-![](assets/images/sarah-aufm-rad.jpeg){class="portrait"}
+![](assets/images/sarah-aufm-rad.jpeg){.portrait}
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-gap-md-1 .px-3}
-# Hi, ich bin Sarah!
-### Und Überarbeiten ist genau meins.
+# Überarbeiten ist genau meins.
 
 <!-- Während Schreiben für mich interessant ist, liebe ich es zu überarbeiten.  -->
 
 Vielen fällt es nicht direkt auf, wenn ein Komma fehlt, eine Schreibweise nicht konsistent ist oder im Satz ein Füllwort steht; aber unbewusst ist da etwas, das nicht ganz passt.
 
 Hier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende unbewusst stolpern. Ich passe sie an, und der Text wird runder.
+:::
+:::
+:::
 
-### Möchtest Du das Beste aus Deinem Text herausholen?
+::: {.container .bg-dark}
+::: grid
+::: {.g-col-12 .g-col-md-6 .g-start-md-3 .px-3}
+# Sollen wir loslegen?
+<!-- ::: {.btn .btn-light} -->
+[Schreib mir eine Mail!](mailto:lektorat-zeller@posteo.de){.btn .btn-light}
+<!-- ::: -->
 
-Dann kontaktiere mich gerne per E-Mail:  [s.zeller@posteo.net](mailto:s.zeller@posteo.net)
 :::
 :::
 :::
