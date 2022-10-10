@@ -1,0 +1,11 @@
+---
+title: "Top 10 Fehler"
+
+---
+
+Einige Fehler kommen in fast jedem Text vor. 
+
+## 1. Doppelte Satzzeichen
+Der Klassiker unter den doppelten Satzzeichen sind doppelte Leerzeichen.
+Sie kommen so schnell unter wie sie zu korrigieren sind: Nutze einfach die `Suchen und Ersetzen`-Funktion von Word, um doppelte Leerzeichen durch ein einfaches zu ersetzen. 
+So ist der Text schnell besser gesetzt. 

@@ -1,16 +1,30 @@
 project:
   type: website
+  preview:
+    host: 0.0.0.0
+    port: 6026
   
 
 website:
   favicon: assets/images/pen-nib-solid.svg
   title: "Lektorat Zeller"
-  page-footer: "Sarah Zeller"
+  page-footer: 
+    left: 
+      - text: "Copyright Sarah Zeller"
+    right:
+      - text: "Impressum"
+        href: impressum.qmd
+      - text: "Datenschutz"
+        href: datenschutz.qmd
   navbar:
     left:
       - text: "Home"
         file: index.qmd
       - file: about.qmd
+      - text: "Ressourcen"
+        menu:
+          - href: top-10-fehler.qmd
+          - href: makros.qmd
     right:
       - text: "{{< fa envelope >}}"
         href: mailto:s.zeller@posteo.net
