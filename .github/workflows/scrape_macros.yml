@@ -1,0 +1,46 @@
+# This is a basic workflow to help you get started with Actions
+
+name: scrape_macros
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  scrape-macros
+    # Load repo and install R
+    steps:
+    - uses: actions/checkout@master
+    - uses: r-lib/actions/setup-r@master
+
+    # Set-up R
+    - name: Install packages
+      run: |
+        R -e 'install.packages("renv")'
+        R -e 'renv::restore()'
+    # Run R script
+    - name: Scrape
+      run: Rscript get_github_code.R
+      env:
+        at: ${{secrets.AT}}
+      
+ # Add new files in macros folder, commit along with other modified files, push
+    - name: Commit files
+      run: |
+        git config --local user.name actions-user
+        git config --local user.email "actions@github.com"
+        git add macros/*
+        git commit -am ":construction_worker: GH ACTION update macro files $(date)"
+        git push origin main
+      env:
+        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+        username: github-actions
