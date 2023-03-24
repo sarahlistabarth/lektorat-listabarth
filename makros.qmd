@@ -26,10 +26,8 @@ Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros
 
 ## Meine Makros
 ```{r}
-#| label: create-vb-files
-#| echo: false
-#| warning: false
-source("get_github_code.R")
+#| label: empty-r-chunk
+
 ```
 
 
