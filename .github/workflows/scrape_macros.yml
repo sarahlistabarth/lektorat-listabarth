@@ -18,8 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     # Load repo and install R
     steps:
-    - uses: actions/checkout@main
-    - uses: r-lib/actions/setup-r@main
+    - uses: actions/checkout@master
+    - uses: r-lib/actions/setup-r
 
     # Set-up R
     - name: Install packages
