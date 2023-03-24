@@ -15,7 +15,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   scrape-macros:
-    runs-on: windows-latest
+    runs-on: macos-latest
     # Load repo and install R
     steps:
     - uses: actions/checkout@master
