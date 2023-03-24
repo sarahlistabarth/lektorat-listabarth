@@ -1,8 +1,8 @@
 project:
   type: website
-  preview:
-    host: 0.0.0.0
-    port: 6026
+  # preview:
+  #   host: 0.0.0.0
+  #   port: 6026
   
 
 website:
@@ -37,6 +37,9 @@ format:
     theme: litera
     css: styles.css
     toc: false
+    code-fold: true
+    code-copy: true
+    code-summary: "VBA-Code zeigen"
     # page-layout: custom
 
 editor: visual
