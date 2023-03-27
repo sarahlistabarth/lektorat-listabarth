@@ -30,17 +30,9 @@ jobs:
           R -e 'install.packages("htmltools")'
           R -e 'install.packages("rmarkdown")'
 
-      - name: Populate R environment
-        run: |
-          echo at="$AT" >> ~/.Renviron
-          shell: bash
-        env:
-          at: ${{ secrets.AT }}
-          
       - name: Scrape macros
         run: |
-          echo at="AT" >> ~/.Renviron
-          shell: bash
+          R -e 'Sys.setenv(at = $AT)'
           Rscript get_github_code.R
         env:
           at: ${{ secrets.AT }}
