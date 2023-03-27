@@ -1,6 +1,18 @@
 library(httr)
 library(dotenv)
 library(here)
+
+# check that env variable exists
+
+# fail on missing env vars
+missing_env <- function(key){
+  result <- is.na(Sys.getenv(key,unset = NA_character_))
+  if(result) warning(paste0("Missing env var: ",key))
+  result
+}
+
+if(missing_env("ACCESS_TOKEN_MACROS")) stop("credentials not found")
+
 if(!exists("ACCESS_TOKEN_MACROS")) {
   ACCESS_TOKEN_MACROS <- Sys.getenv("ACCESS_TOKEN_MACROS")
   cat("Accessing the access token now. It has", length(ACCESS_TOKEN_MACROS), "characters")
