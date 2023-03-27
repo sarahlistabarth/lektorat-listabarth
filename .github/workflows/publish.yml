@@ -32,8 +32,7 @@ jobs:
           
       - name: Scrape macros
         run: |
-          at="$AT" >> ~/.Renviron
-          shell: bash
+          R - e 'Sys.setenv(at = {{ secret.AT })
           Rscript get_github_code.R
         env:
           at: ${{ secrets.AT }}
