@@ -39,8 +39,10 @@ jobs:
         git config --local user.name actions-user
         git config --local user.email "actions@github.com"
         git add macros/*
-        git commit -am ":construction_worker: GH ACTION update macro files $(date)"
-        git push origin main
+        if ! git diff-index --quitet HEAD; then
+          git commit -am ":construction_worker: GH ACTION update macro files $(date)"
+          git push origin main
+        fi
       env:
         REPO_KEY: ${{secrets.GITHUB_TOKEN}}
         username: github-actions
