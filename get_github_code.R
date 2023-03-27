@@ -1,9 +1,9 @@
 library(httr)
 library(dotenv)
 library(here)
-if(!exists("at")) {
-  at <- Sys.getenv("at")
-  cat("Accessing the access token now.")
+if(!exists("ACCESS_TOKEN_MACROS")) {
+  ACCESS_TOKEN_MACROS <- Sys.getenv("ACCESS_TOKEN_MACROS")
+  cat("Accessing the access token now. It has", length(ACCESS_TOKEN_MACROS), "characters")
   }
 
 if (!"macros" %in% list.files()) {
@@ -21,7 +21,7 @@ scrape_macro <- function(macro_name) {
   macro_script <-
     GET(
       url = url,
-      authenticate("s.zeller@posteo.net", at),    
+      authenticate("s.zeller@posteo.net", ACCESS_TOKEN_MACROS),    
       accept("application/vnd.github.v3.raw")
     ) |> 
     content(as = "text")
