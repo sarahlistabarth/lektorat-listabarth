@@ -31,7 +31,10 @@ jobs:
           R -e 'install.packages("rmarkdown")'
           
       - name: Scrape macros
-        run: Rscript get_github_code.R
+        run: |
+          at="$AT" >> ~/.Renviron
+          shell: bash
+          Rscript get_github_code.R
         env:
           at: ${{ secrets.AT }}
 

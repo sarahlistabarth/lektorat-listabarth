@@ -1,7 +1,10 @@
 library(httr)
 library(dotenv)
 library(here)
-if(!exists("at")) {at <- Sys.getenv("at")}
+if(!exists("at")) {
+  at <- Sys.getenv("at")
+  cat("Accessing the access token now.")
+  }
 
 if (!"macros" %in% list.files()) {
   dir.create("macros")
