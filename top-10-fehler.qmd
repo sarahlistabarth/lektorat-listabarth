@@ -1,5 +1,6 @@
 ---
-title: "Top 10 Fehler"
+title: "Top-10-Fehler"
+toc: true
 ---
 
 Einige Fehler kommen in fast jedem wissenschaftlichen Text vor.
