@@ -23,43 +23,189 @@ Sie kann als Makro mit der Tastenkombination `Strg + M` ausgeführt werden.
 
 Makros können in Word direkt installiert werden.
 Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros kann hineinkopiert werden.
+Um die folgenden Makros zu installieren, gehe folgendermaßen vor:
 
-## Meine Makros
+1.    Suche dir das Makro aus
+2.    Klappe den VBA-Code aus (*VBA-Code zeigen*)
+3.    Kopiere den Code, indem du auf das Klemmbrett rechts klickst
+4.    Öffne den VBA-Code-Editor in Word: `Alt + F11` in Word drücken
+5.    Kopiere den VBA-Code ganz unten in das Fenster `Normal - New Macros (Code)`
+
+
+6.    (*optional*) Weise dem Makro eine Tastenkombination zu, indem du auf `Datei -- Optionen -- Menüband anpassen -- Tastenkombinationen: Anpassen` gehst. 
+Hier kannst du unter `Kategorien -- Makros` bei `Befehl` das Makro aussuchen.
+Jetzt drücke die Tastenkombination, die du haben magst (z. B. `Strg + M`).
+Als letztes klickst du auf `Zuordnen`.
+
+
 ```{r}
 #| label: empty-r-chunk
 
 ```
 
+## Veränderungen im Text
+
+Die erste Makro-Kategorie erleichtert das Lektorieren, indem mehrere Tastenbewegungen zu einer zusammengefasst werden.
+Ich nutze sie während der detaillierten Textarbeit.
 
 ### AddM
+
+Dieses Makro ersetzt den letzten Buchstaben eines Wortes durch *m*.
+Wenn der letzte Buchstabe *e* ist, wird hinten ein *m* hinzugefügt.
+
+::: {.callout-tip}
+Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
+Bitte installiere es daher gemeinsam mit diesem Makro.
+:::
+
 ```{default}
 #| eval: false
 #| file: macros/addM.vb
 #| label: addM
 ```
 
+::: {.panel-tabset}
+#### Vorher
+eines  
+einen  
+einer
+
+eine
+
+#### Nachher
+einem  
+einem  
+einem  
+
+einem  
+:::
+
+
 ### AddN
+
+Dieses Makro ersetzt den letzten Buchstaben eines Wortes durch *n*.
+Wenn der letzte Buchstabe *e* ist, wird hinten ein *n* hinzugefügt.
+Wenn der letzte Buchstabe *n* ist, wird stattdessen *en* hinten an das Wort angefügt.
+
+::: {.callout-tip}
+Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
+Bitte installiere es daher gemeinsam mit diesem Makro.
+:::
+
 ```{default}
 #| eval: false
 #| file: macros/addN.vb
 #| label: addN
 ```
 
+::: {.panel-tabset}
+#### Vorher
+eines  
+einem  
+einer
+
+ein  
+eine
+
+#### Nachher
+einen  
+einen  
+einen  
+
+einen  
+einen
+:::
+
 ### AddR
+
+Dieses Makro ersetzt den letzten Buchstaben eines Wortes durch *r*.
+Wenn der letzte Buchstabe *e* ist, wird hinten ein *r* hinzugefügt.
+Wenn der letzte Buchstabe *n* ist, wird stattdessen *er* hinten an das Wort angefügt.
+
+::: {.callout-tip}
+Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
+Bitte installiere es daher gemeinsam mit diesem Makro.
+:::
+
 ```{default}
 #| eval: false
 #| file: macros/addR.vb
 #| label: addR
 ```
 
+::: {.panel-tabset}
+#### Vorher
+letzes    
+letzem    
+letzen  
+  
+letzter    
+letze  
+
+#### Nachher
+letzer    
+letzer    
+letzer    
+  
+letzerer    
+letzer  
+:::
+
 ### AddS
+
+Dieses Makro fügt an ein Wort den Buchstaben *s* an.
+Wenn der letzte Buchstabe *s* ist, wird hinten ein *es* hinzugefügt.
+
+::: {.callout-tip}
+Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
+Bitte installiere es daher gemeinsam mit diesem Makro.
+:::
+
 ```{default}
 #| eval: false
 #| file: macros/addS.vb
 #| label: addS
 ```
 
-### MoveToEndOfWord
+::: {.panel-tabset}
+#### Vorher
+letzten  
+letzte  
+dies
+
+#### Nachher
+letztens  
+letztes  
+dieses
+:::
+
+### geschuetztesLeerzeichen
+
+Dieses Makro ersetzt das nächste normale Leerzeichen durch ein geschütztes.
+Dafür bewegt es sich um ein Wort nach rechts vom Cursor.
+Wenn dort noch kein Leerzeichen steht, setzt es ein geschützes ein; ansonsten ersetzt es das normale Leerzeichen durch ein geschütztes.
+
+```{default}
+#| eval: false
+#| file: macros/geschuetztesLeerzeichen.vb
+#| label: geschutztesLeerzeichen
+```
+
+::: {.panel-tabset}
+#### Vorher
+35g  
+84,7 km  
+
+#### Nachher
+35 g  
+84,7 km  
+:::
+
+### MoveToEndOfWord {#move_to}
+
+Dieses Makro bewegt den Cursor an das Ende des Worts.
+Wenn man bei Word `Strg + →` drückt, wird der Cursor an den Beginn des nächsten Worts gebracht, d. h. die Leerzeichen werden übersprungen.
+Dieses Makro ist eine Alternative.
 
 ```{default}
 #| eval: false
@@ -67,25 +213,41 @@ Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros
 #| label: MoveToEndOfWord
 ```
 
+::: {.panel-tabset}
+#### Vorher
+|eines Tages
+
+#### Nachher
+ eines| Tages
+:::
+
 ### ZitatKlammernZuText
+Dieses Makro verwandelt eine Referenz, die in Klammern steht, in eine Referenz, die im Text steht.
 
 ```{default}
 #| eval: false
 #| file: macros/ZitatKlammernZuText.vb
 #| label: ZitatKlammernZuText
 ```
+
+::: {.panel-tabset}
+#### Vorher
+Nach (Jack und Jones, 2023) ist dies ein Beispielsatz.
+
+#### Nachher
+Nach Jack und Jones (2023) ist dies ein Beispielsatz.
+:::
+
+## Navigation
+
+Manchmal ist es nötig, im Text herumzuspringen, etwa um Textstellen miteinander zu vergleichen.
+Danach ist es nicht immer leicht, die Stelle wiederzufinden, von der ich gestartet bin.
+Dieses Makro setzt zuerst ein Lesezeichen und springt dann wieder zu diesem Lesezeichen zurück, wenn ich es wieder ausführe.
+
 ### HoldMySpot
 
 ```{default}
 #| eval: false
 #| file: macros/HoldMySpot.vb
 #| label: HoldMySpot
-```
-
-### geschuetztesLeerzeichen
-
-```{default}
-#| eval: false
-#| file: macros/geschuetztesLeerzeichen.vb
-#| label: geschutztesLeerzeichen
 ```
