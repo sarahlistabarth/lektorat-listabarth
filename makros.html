@@ -180,16 +180,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul>
   <li><a href="#was-sind-makros" id="toc-was-sind-makros" class="nav-link active" data-scroll-target="#was-sind-makros">Was sind Makros?</a></li>
   <li><a href="#installierung" id="toc-installierung" class="nav-link" data-scroll-target="#installierung">Installierung</a></li>
-  <li><a href="#meine-makros" id="toc-meine-makros" class="nav-link" data-scroll-target="#meine-makros">Meine Makros</a>
+  <li><a href="#veränderungen-im-text" id="toc-veränderungen-im-text" class="nav-link" data-scroll-target="#veränderungen-im-text">Veränderungen im Text</a>
   <ul class="collapse">
   <li><a href="#addm" id="toc-addm" class="nav-link" data-scroll-target="#addm">AddM</a></li>
   <li><a href="#addn" id="toc-addn" class="nav-link" data-scroll-target="#addn">AddN</a></li>
   <li><a href="#addr" id="toc-addr" class="nav-link" data-scroll-target="#addr">AddR</a></li>
   <li><a href="#adds" id="toc-adds" class="nav-link" data-scroll-target="#adds">AddS</a></li>
-  <li><a href="#movetoendofword" id="toc-movetoendofword" class="nav-link" data-scroll-target="#movetoendofword">MoveToEndOfWord</a></li>
-  <li><a href="#zitatklammernzutext" id="toc-zitatklammernzutext" class="nav-link" data-scroll-target="#zitatklammernzutext">ZitatKlammernZuText</a></li>
-  <li><a href="#holdmyspot" id="toc-holdmyspot" class="nav-link" data-scroll-target="#holdmyspot">HoldMySpot</a></li>
   <li><a href="#geschuetztesleerzeichen" id="toc-geschuetztesleerzeichen" class="nav-link" data-scroll-target="#geschuetztesleerzeichen">geschuetztesLeerzeichen</a></li>
+  <li><a href="#move_to" id="toc-move_to" class="nav-link" data-scroll-target="#move_to">MoveToEndOfWord</a></li>
+  <li><a href="#zitatklammernzutext" id="toc-zitatklammernzutext" class="nav-link" data-scroll-target="#zitatklammernzutext">ZitatKlammernZuText</a></li>
+  </ul></li>
+  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">Navigation</a>
+  <ul class="collapse">
+  <li><a href="#holdmyspot" id="toc-holdmyspot" class="nav-link" data-scroll-target="#holdmyspot">HoldMySpot</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -229,15 +232,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="installierung" class="level2">
 <h2 class="anchored" data-anchor-id="installierung">Installierung</h2>
-<p>Makros können in Word direkt installiert werden. Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros kann hineinkopiert werden.</p>
-</section>
-<section id="meine-makros" class="level2">
-<h2 class="anchored" data-anchor-id="meine-makros">Meine Makros</h2>
+<p>Makros können in Word direkt installiert werden. Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros kann hineinkopiert werden. Um die folgenden Makros zu installieren, gehe folgendermaßen vor:</p>
+<ol type="1">
+<li><p>Suche dir das Makro aus</p></li>
+<li><p>Klappe den VBA-Code aus (<em>VBA-Code zeigen</em>)</p></li>
+<li><p>Kopiere den Code, indem du auf das Klemmbrett rechts klickst</p></li>
+<li><p>Öffne den VBA-Code-Editor in Word: <code>Alt + F11</code> in Word drücken</p></li>
+<li><p>Kopiere den VBA-Code ganz unten in das Fenster <code>Normal - New Macros (Code)</code></p></li>
+<li><p>(<em>optional</em>) Weise dem Makro eine Tastenkombination zu, indem du auf <code>Datei -- Optionen -- Menüband anpassen -- Tastenkombinationen: Anpassen</code> gehst. Hier kannst du unter <code>Kategorien -- Makros</code> bei <code>Befehl</code> das Makro aussuchen. Jetzt drücke die Tastenkombination, die du haben magst (z.&nbsp;B. <code>Strg + M</code>). Als letztes klickst du auf <code>Zuordnen</code>.</p></li>
+</ol>
 <div class="cell">
 
 </div>
+</section>
+<section id="veränderungen-im-text" class="level2">
+<h2 class="anchored" data-anchor-id="veränderungen-im-text">Veränderungen im Text</h2>
+<p>Die erste Makro-Kategorie erleichtert das Lektorieren, indem mehrere Tastenbewegungen zu einer zusammengefasst werden. Ich nutze sie während der detaillierten Textarbeit.</p>
 <section id="addm" class="level3">
 <h3 class="anchored" data-anchor-id="addm">AddM</h3>
+<p>Dieses Makro ersetzt den letzten Buchstaben eines Wortes durch <em>m</em>. Wenn der letzte Buchstabe <em>e</em> ist, wird hinten ein <em>m</em> hinzugefügt.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dieses Makro verwendet das <a href="#move_to">MoveToEndOfWord</a>-Makro. Bitte installiere es daher gemeinsam mit diesem Makro.</p>
+</div>
+</div>
 <div class="cell" data-file="macros/addM.vb">
 <details>
 <summary>VBA-Code zeigen</summary>
@@ -265,9 +291,40 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Vorher</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Nachher</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>eines<br>
+einen<br>
+einer</p>
+<p>eine</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>einem<br>
+einem<br>
+einem</p>
+<p>einem</p>
+</div>
+</div>
+</div>
 </section>
 <section id="addn" class="level3">
 <h3 class="anchored" data-anchor-id="addn">AddN</h3>
+<p>Dieses Makro ersetzt den letzten Buchstaben eines Wortes durch <em>n</em>. Wenn der letzte Buchstabe <em>e</em> ist, wird hinten ein <em>n</em> hinzugefügt. Wenn der letzte Buchstabe <em>n</em> ist, wird stattdessen <em>en</em> hinten an das Wort angefügt.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dieses Makro verwendet das <a href="#move_to">MoveToEndOfWord</a>-Makro. Bitte installiere es daher gemeinsam mit diesem Makro.</p>
+</div>
+</div>
 <div class="cell" data-file="macros/addN.vb">
 <details>
 <summary>VBA-Code zeigen</summary>
@@ -298,9 +355,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Vorher</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Nachher</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>eines<br>
+einem<br>
+einer</p>
+<p>ein<br>
+eine</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>einen<br>
+einen<br>
+einen</p>
+<p>einen<br>
+einen</p>
+</div>
+</div>
+</div>
 </section>
 <section id="addr" class="level3">
 <h3 class="anchored" data-anchor-id="addr">AddR</h3>
+<p>Dieses Makro ersetzt den letzten Buchstaben eines Wortes durch <em>r</em>. Wenn der letzte Buchstabe <em>e</em> ist, wird hinten ein <em>r</em> hinzugefügt. Wenn der letzte Buchstabe <em>n</em> ist, wird stattdessen <em>er</em> hinten an das Wort angefügt.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dieses Makro verwendet das <a href="#move_to">MoveToEndOfWord</a>-Makro. Bitte installiere es daher gemeinsam mit diesem Makro.</p>
+</div>
+</div>
 <div class="cell" data-file="macros/addR.vb">
 <details>
 <summary>VBA-Code zeigen</summary>
@@ -333,9 +423,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Vorher</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Nachher</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>letzes<br>
+letzem<br>
+letzen</p>
+<p>letzter<br>
+letze</p>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>letzer<br>
+letzer<br>
+letzer</p>
+<p>letzerer<br>
+letzer</p>
+</div>
+</div>
+</div>
 </section>
 <section id="adds" class="level3">
 <h3 class="anchored" data-anchor-id="adds">AddS</h3>
+<p>Dieses Makro fügt an ein Wort den Buchstaben <em>s</em> an. Wenn der letzte Buchstabe <em>s</em> ist, wird hinten ein <em>es</em> hinzugefügt.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dieses Makro verwendet das <a href="#move_to">MoveToEndOfWord</a>-Makro. Bitte installiere es daher gemeinsam mit diesem Makro.</p>
+</div>
+</div>
 <div class="cell" data-file="macros/addS.vb">
 <details>
 <summary>VBA-Code zeigen</summary>
@@ -360,154 +483,211 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Vorher</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Nachher</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<p>letzten<br>
+letzte<br>
+dies</p>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<p>letztens<br>
+letztes<br>
+dieses</p>
+</div>
+</div>
+</div>
 </section>
-<section id="movetoendofword" class="level3">
-<h3 class="anchored" data-anchor-id="movetoendofword">MoveToEndOfWord</h3>
+<section id="geschuetztesleerzeichen" class="level3">
+<h3 class="anchored" data-anchor-id="geschuetztesleerzeichen">geschuetztesLeerzeichen</h3>
+<p>Dieses Makro ersetzt das nächste normale Leerzeichen durch ein geschütztes. Dafür bewegt es sich um ein Wort nach rechts vom Cursor. Wenn dort noch kein Leerzeichen steht, setzt es ein geschützes ein; ansonsten ersetzt es das normale Leerzeichen durch ein geschütztes.</p>
+<div class="cell" data-file="macros/geschuetztesLeerzeichen.vb">
+<details>
+<summary>VBA-Code zeigen</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>Sub geschuetztesLeerzeichen()</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>'</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>' geschütztesLeerzeichen Makro</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>' ersetzt das nächste normale Leerzeichen durch ein geschütztes</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>' Sarah Zeller, 16.10.2022</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>With ActiveWindow.View.RevisionsFilter</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    .Markup = wdRevisionsMarkupSimple</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>End With</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>Selection.MoveRight Unit:=wdWord, Count:=1</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>Selection.MoveLeft Unit:=wdCharacter, Count:=1</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>If Selection = " " Or Selection = ChrW(160) Then</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    Selection.TypeBackspace</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>Else: Selection.MoveRight</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>End If</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>Selection.TypeText Text:=ChrW(160)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Vorher</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Nachher</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<p>35g<br>
+84,7 km</p>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<p>35&nbsp;g<br>
+84,7&nbsp;km</p>
+</div>
+</div>
+</div>
+</section>
+<section id="move_to" class="level3">
+<h3 class="anchored" data-anchor-id="move_to">MoveToEndOfWord</h3>
+<p>Dieses Makro bewegt den Cursor an das Ende des Worts. Wenn man bei Word <code>Strg + →</code> drückt, wird der Cursor an den Beginn des nächsten Worts gebracht, d.&nbsp;h. die Leerzeichen werden übersprungen. Dieses Makro ist eine Alternative.</p>
 <div class="cell" data-file="macros/MoveToEndOfWord.vb">
 <details>
 <summary>VBA-Code zeigen</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>Sub MoveToEndOfWord()</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>' moves to the end of a word</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>' regardless of any potential whitespaces before the next word</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>If Selection.Text = " " Then</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdWord, Count:=1</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>End If</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>Selection.MoveRight Unit:=wdWord, Count:=1</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>Selection.MoveLeft Unit:=wdCharacter, Count:=1</span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>If Selection.Text &lt;&gt; " " Then</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdCharacter, Count:=1</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>End If</span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>Sub MoveToEndOfWord()</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>' moves to the end of a word</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>' regardless of any potential whitespaces before the next word</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>If Selection.Text = " " Then</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdWord, Count:=1</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>End If</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>Selection.MoveRight Unit:=wdWord, Count:=1</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>Selection.MoveLeft Unit:=wdCharacter, Count:=1</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>If Selection.Text &lt;&gt; " " Then</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdCharacter, Count:=1</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>End If</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+</div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Vorher</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Nachher</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<p>|eines Tages</p>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<p>eines| Tages</p>
+</div>
+</div>
 </div>
 </section>
 <section id="zitatklammernzutext" class="level3">
 <h3 class="anchored" data-anchor-id="zitatklammernzutext">ZitatKlammernZuText</h3>
+<p>Dieses Makro verwandelt eine Referenz, die in Klammern steht, in eine Referenz, die im Text steht.</p>
 <div class="cell" data-file="macros/ZitatKlammernZuText.vb">
 <details>
 <summary>VBA-Code zeigen</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>Sub ZitatKlammernZuText()</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>'</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>' ZitatKlammernZuText Makro</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>' Ändert ein Zitat um: von in Klammern gesetzt zu im Fließtext eingebettet</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>' </span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>'</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>Dim i</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>Dim j</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>Dim k</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>i = 0</span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>j = 0</span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>k = 0</span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>' Make sure I can jump back if I want to</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>ActiveDocument.Bookmarks.Add Name:="temp"</span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>' Check for parenthesis</span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>Do Until i &gt;= 10</span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdWord</span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    Selection.Expand Unit:=wdCharacter</span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>    If Selection = "(" Then</span>
-<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>        Selection.Delete</span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>        i = 11</span>
-<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>    Else: i = i + 1</span>
-<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>    End If</span>
-<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>Loop</span>
-<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>' jump back if no parenthesis</span>
-<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>If i = 10 Then</span>
-<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>    ActiveDocument.Bookmarks("temp").Select</span>
-<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>    ActiveDocument.Bookmarks("temp").Delete</span>
-<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>    Exit Sub</span>
-<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>End If</span>
-<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>' Delete comma and set parenthesis</span>
-<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>Do Until j &gt;= 15</span>
-<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdWord</span>
-<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>    Selection.Expand Unit:=wdCharacter</span>
-<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    If IsNumeric(Selection) Then</span>
-<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>    ' Place parenthesis</span>
-<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>        Selection.InsertBefore Text:="("</span>
-<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>        j = 16</span>
-<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>        ' Delete comma</span>
-<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>        Do Until k = 4</span>
-<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>        Selection.MoveLeft Unit:=wdCharacter</span>
-<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>        If Selection = "," Then</span>
-<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>            Selection.Delete</span>
-<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>            k = 4</span>
-<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>        ElseIf Selection = " " Then k = k + 1</span>
-<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a>        ElseIf Selection = "," Then k = k + 1</span>
-<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a>        Else: k = k + 1</span>
-<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a>        End If</span>
-<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a>        Loop</span>
-<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a>    Else: j = j + 1</span>
-<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a>    End If</span>
-<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a>Loop</span>
-<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>Sub ZitatKlammernZuText()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>'</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>' ZitatKlammernZuText Makro</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>' Ändert ein Zitat um: von in Klammern gesetzt zu im Fließtext eingebettet</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>' </span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>'</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>Dim i</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>Dim j</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>Dim k</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>i = 0</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>j = 0</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>k = 0</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>' Make sure I can jump back if I want to</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>ActiveDocument.Bookmarks.Add Name:="temp"</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>' Check for parenthesis</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>Do Until i &gt;= 10</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdWord</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>    Selection.Expand Unit:=wdCharacter</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>    If Selection = "(" Then</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>        Selection.Delete</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>        i = 11</span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>    Else: i = i + 1</span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>    End If</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>Loop</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>' jump back if no parenthesis</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>If i = 10 Then</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>    ActiveDocument.Bookmarks("temp").Select</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>    ActiveDocument.Bookmarks("temp").Delete</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>    Exit Sub</span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>End If</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>' Delete comma and set parenthesis</span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>Do Until j &gt;= 15</span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight Unit:=wdWord</span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>    Selection.Expand Unit:=wdCharacter</span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>    If IsNumeric(Selection) Then</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a>    ' Place parenthesis</span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>        Selection.InsertBefore Text:="("</span>
+<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a>        j = 16</span>
+<span id="cb7-45"><a href="#cb7-45" aria-hidden="true" tabindex="-1"></a>        ' Delete comma</span>
+<span id="cb7-46"><a href="#cb7-46" aria-hidden="true" tabindex="-1"></a>        Do Until k = 4</span>
+<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a>        Selection.MoveLeft Unit:=wdCharacter</span>
+<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a>        If Selection = "," Then</span>
+<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a>            Selection.Delete</span>
+<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a>            k = 4</span>
+<span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a>        ElseIf Selection = " " Then k = k + 1</span>
+<span id="cb7-52"><a href="#cb7-52" aria-hidden="true" tabindex="-1"></a>        ElseIf Selection = "," Then k = k + 1</span>
+<span id="cb7-53"><a href="#cb7-53" aria-hidden="true" tabindex="-1"></a>        Else: k = k + 1</span>
+<span id="cb7-54"><a href="#cb7-54" aria-hidden="true" tabindex="-1"></a>        End If</span>
+<span id="cb7-55"><a href="#cb7-55" aria-hidden="true" tabindex="-1"></a>        Loop</span>
+<span id="cb7-56"><a href="#cb7-56" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a>    Else: j = j + 1</span>
+<span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>    End If</span>
+<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a>Loop</span>
+<span id="cb7-60"><a href="#cb7-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-61"><a href="#cb7-61" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true">Vorher</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false">Nachher</a></li></ul>
+<div class="tab-content">
+<div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
+<p>Nach (Jack und Jones, 2023) ist dies ein Beispielsatz.</p>
+</div>
+<div id="tabset-7-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-2-tab">
+<p>Nach Jack und Jones (2023) ist dies ein Beispielsatz.</p>
+</div>
+</div>
+</div>
 </section>
+</section>
+<section id="navigation" class="level2">
+<h2 class="anchored" data-anchor-id="navigation">Navigation</h2>
+<p>Manchmal ist es nötig, im Text herumzuspringen, etwa um Textstellen miteinander zu vergleichen. Danach ist es nicht immer leicht, die Stelle wiederzufinden, von der ich gestartet bin. Dieses Makro setzt zuerst ein Lesezeichen und springt dann wieder zu diesem Lesezeichen zurück, wenn ich es wieder ausführe.</p>
 <section id="holdmyspot" class="level3">
 <h3 class="anchored" data-anchor-id="holdmyspot">HoldMySpot</h3>
 <div class="cell" data-file="macros/HoldMySpot.vb">
 <details>
 <summary>VBA-Code zeigen</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>Sub HoldMySpot()</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>' Add Bookmarks</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>' Version: 20.07.2022</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>' Sarah Zeller</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>' Original: Shane Bryson</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>Dim temp As String</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>temp = "holdMySpot"</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>With ActiveDocument</span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>If .Bookmarks.Exists(temp) Then</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    .Bookmarks(temp).Select</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    .Bookmarks(temp).Delete</span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>Else: .Bookmarks.Add Name:=temp</span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    MsgBox "Bookmark set"</span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>End If</span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>End With</span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
-</section>
-<section id="geschuetztesleerzeichen" class="level3">
-<h3 class="anchored" data-anchor-id="geschuetztesleerzeichen">geschuetztesLeerzeichen</h3>
-<div class="cell" data-file="macros/geschuetztesLeerzeichen.vb">
-<details>
-<summary>VBA-Code zeigen</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>Sub geschuetztesLeerzeichen()</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>'</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>' geschütztesLeerzeichen Makro</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>' ersetzt das nächste normale Leerzeichen durch ein geschütztes</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>' Sarah Zeller, 16.10.2022</span>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>Sub HoldMySpot()</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>' Add Bookmarks</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>' Version: 20.07.2022</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>' Sarah Zeller</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>' Original: Shane Bryson</span>
 <span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>With ActiveWindow.View.RevisionsFilter</span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    .Markup = wdRevisionsMarkupSimple</span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>End With</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>Dim temp As String</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>temp = "holdMySpot"</span>
 <span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>Selection.MoveRight Unit:=wdWord, Count:=1</span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>Selection.MoveLeft Unit:=wdCharacter, Count:=1</span>
-<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>If Selection = " " Or Selection = ChrW(160) Then</span>
-<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    Selection.MoveRight</span>
-<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    Selection.TypeBackspace</span>
-<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>Else: Selection.MoveRight</span>
-<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>End If</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>With ActiveDocument</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>If .Bookmarks.Exists(temp) Then</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    .Bookmarks(temp).Select</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    .Bookmarks(temp).Delete</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>Else: .Bookmarks.Add Name:=temp</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    MsgBox "Bookmark set"</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>End If</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>End With</span>
 <span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>Selection.TypeText Text:=ChrW(160)</span>
-<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 
