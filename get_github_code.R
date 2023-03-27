@@ -15,7 +15,7 @@ if(missing_env("ACCESS_TOKEN_MACROS")) stop("credentials not found")
 
 if(!exists("ACCESS_TOKEN_MACROS")) {
   ACCESS_TOKEN_MACROS <- Sys.getenv("ACCESS_TOKEN_MACROS")
-  cat("Accessing the access token now. It has", length(ACCESS_TOKEN_MACROS), "characters")
+  cat("Accessing the access token now. It has", nchar(ACCESS_TOKEN_MACROS), "characters")
   }
 
 if (!"macros" %in% list.files()) {
