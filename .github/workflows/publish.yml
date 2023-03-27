@@ -5,14 +5,14 @@ on:
 
 name: Quarto Publish
 
-env:
-  ACCESS_TOKEN_MACROS: ${{ secrets.ACCESS_TOKEN_MACROS }}
-
 jobs:
   build-deploy:
     runs-on: macos-latest
     permissions:
       contents: write
+    env:
+      ACCESS_TOKEN_MACROS: ${{ secrets.ACCESS_TOKEN_MACROS }}
+      
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
