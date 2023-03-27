@@ -1,1 +1,1 @@
-Sitemap: https://github.com/szeller42/my-website/sitemap.xml
+Sitemap: https://szeller42.github.io/my-website/sitemap.xml
