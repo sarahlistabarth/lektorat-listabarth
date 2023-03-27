@@ -1,6 +1,7 @@
 library(httr)
 library(dotenv)
 library(here)
+if(!exists("at")) {at <- Sys.getenv("at")}
 
 if (!"macros" %in% list.files()) {
   dir.create("macros")
@@ -17,7 +18,7 @@ scrape_macro <- function(macro_name) {
   macro_script <-
     GET(
       url = url,
-      authenticate("s.zeller@posteo.net", Sys.getenv("at")),    
+      authenticate("s.zeller@posteo.net", at),    
       accept("application/vnd.github.v3.raw")
     ) |> 
     content(as = "text")

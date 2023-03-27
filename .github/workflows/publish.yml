@@ -30,15 +30,10 @@ jobs:
           R -e 'install.packages("htmltools")'
           R -e 'install.packages("rmarkdown")'
           
-      - name: Scrape
-        run: Rscript get_github_code.R
-        env:
-          at: ${{secrets.AT}}
-
       - name: Scrape macros
         run: Rscript get_github_code.R
         env:
-          at: ${{secrets.AT}}
+          at: ${{ secrets.AT }}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
