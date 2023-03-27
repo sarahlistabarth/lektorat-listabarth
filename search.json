@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Über mich",
+    "section": "",
+    "text": "Schön, dass du da bist. Ich bin Sarah und lese für mein Leben gern. Deswegen habe ich das Lektorieren zu meinem Beruf gemacht.\nLektorin ADM"
+  },
+  {
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Angaben gemäß § 5 TMG\nSarah Zeller\nRingstraße 5\n01067 Dresden\nUStID: DE322982120\n\n\nKontakt\nTelefon: 01573 / 5726454\nE-Mail: lektorat-zeller@posteo.de"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lektorat Zeller",
+    "section": "",
+    "text": "Ich hole das Beste aus Deinem Text.\nDu hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen!\n\n\n\n\n\n\n\n\n\n\nEin Lektorat macht Deinen Text runder.\nVielen Lesenden fällt es nicht direkt auf, wenn ein Komma fehlt, eine Schreibweise inkonsistent ist oder im Satz ein Füllwort steht; aber unbewusst passt dann etwas nicht ganz.\nHier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolpern. Ich passe sie an, und der Text wird runder.\n\n\n\n\n\n\n\n\n\nMein Angebot\n\n\n\n\n\n\n\n\n\nIm Lektorat passe ich Deinen Text immer so an, dass er den Regeln der deutschen Rechtschreibung entspricht. Zusätzlich kann ich Dir Feedback zu Struktur und Logik geben. Dementsprechend biete ich folgende Pakete an.\n\n\n\n\n\n\nLektorat light\n\n\nalle Textsorten\nab 1,3 ct / Wort\n\n\n\nAnpassung von Rechtschreibung, Grammatik und Zeichensetzung\nVereinheitlichung des Schreibstils \n\n\n\n\n\n\n\nLektorat Belletristik\n\n\nhistorische Romane | Chick Lit | Fantasy \nab 2,6 ct / Wort\n\n\n\nAnpassung von Rechtschreibung, Grammatik und Zeichensetzung\nVereinheitlichung des Schreibstils\nAnpassung des Schreibstils an die Literaturart\nRückmeldung zu Logik und Spannungsbogen\nRückmeldung zu rotem Faden und Vollständigkeit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSollen wir loslegen?\nDeinen Text überarbeite ich gerne für Dich.\nSchreib mir eine Mail!"
+  },
+  {
+    "objectID": "makros.html",
+    "href": "makros.html",
+    "title": "Word-Makros",
+    "section": "",
+    "text": "Beim Lektorieren nutze ich viele Makros, denn sie beschleunigen den Überarbeitungsprozess."
+  },
+  {
+    "objectID": "makros.html#was-sind-makros",
+    "href": "makros.html#was-sind-makros",
+    "title": "Word-Makros",
+    "section": "Was sind Makros?",
+    "text": "Was sind Makros?\nMit Makros können Veränderungen, die mehrere Tastaturanschläge benötigen, auf eine Tastenkombination gelegt werden. Das ist besonders praktisch bei Veränderungen, die häufig durchgeführt werden.\nEin Beispiel ist folgende Veränderung:\n\nzum Ende des Wortes springen\nden letzten Buchstaben eines Worts löschen,\n“m” einfügen,\nwieder zum Beginn des Worts zu springen.\n\nSie kann als Makro mit der Tastenkombination Strg + M ausgeführt werden."
+  },
+  {
+    "objectID": "makros.html#installierung",
+    "href": "makros.html#installierung",
+    "title": "Word-Makros",
+    "section": "Installierung",
+    "text": "Installierung\nMakros können in Word direkt installiert werden. Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros kann hineinkopiert werden."
+  },
+  {
+    "objectID": "makros.html#meine-makros",
+    "href": "makros.html#meine-makros",
+    "title": "Word-Makros",
+    "section": "Meine Makros",
+    "text": "Meine Makros\n\n\n\n\nAddM\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}\n\n\n\n\nAddN\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}\n\n\n\n\nAddR\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}\n\n\n\n\nAddS\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}\n\n\n\n\nMoveToEndOfWord\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}\n\n\n\n\nZitatKlammernZuText\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}\n\n\n\n\nHoldMySpot\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}\n\n\n\n\ngeschuetztesLeerzeichen\n\n\nVBA-Code zeigen\n{\n  \"message\": \"Not Found\",\n  \"documentation_url\": \"https://docs.github.com/rest/reference/repos#get-repository-content\"\n}"
+  },
+  {
+    "objectID": "top-10-fehler.html",
+    "href": "top-10-fehler.html",
+    "title": "Top 10 Fehler",
+    "section": "",
+    "text": "Einige Fehler kommen in fast jedem Text vor."
+  },
+  {
+    "objectID": "top-10-fehler.html#doppelte-satzzeichen",
+    "href": "top-10-fehler.html#doppelte-satzzeichen",
+    "title": "Top 10 Fehler",
+    "section": "1. Doppelte Satzzeichen",
+    "text": "1. Doppelte Satzzeichen\nDer Klassiker unter den doppelten Satzzeichen sind doppelte Leerzeichen. Sie kommen so schnell unter wie sie zu korrigieren sind: Nutze einfach die Suchen und Ersetzen-Funktion von Word, um doppelte Leerzeichen durch ein einfaches zu ersetzen. So ist der Text schnell besser gesetzt."
+  }
+]
