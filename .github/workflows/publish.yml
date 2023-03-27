@@ -27,6 +27,8 @@ jobs:
           R -e 'install.packages("dotenv")'
           R -e 'install.packages("here")'
           R -e 'install.packages("httr")'
+          R -e 'install.packages("htmltools")'
+          R -e 'install.packages("rmarkdown")'
           
       - name: Scrape
         run: Rscript get_github_code.R
