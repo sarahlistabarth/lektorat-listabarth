@@ -28,7 +28,9 @@ website:
     right:
       - text: "{{< fa envelope >}}"
         href: mailto:s.zeller@posteo.net
-  search: false
+  search: 
+    location: navbar
+    type: overlay
   # cookie-consent: 
   #   type: express
 
