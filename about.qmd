@@ -2,12 +2,30 @@
 title: "Über mich"
 image: assets/images/sarah_zeller.jpg
 about:
-  template: jolla
-  image-width: 10em
-  image-shape: round
-
+  template: solana
+  image-shape: rounded
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sarah-yvonne-zeller/
+    - icon: book
+      text: VfLL
+      href: https://www.lektoren.de/profil/sarah-zeller
 ---
 
-Schön, dass du da bist. Ich bin Sarah und lese für mein Leben gern. Deswegen habe ich das Lektorieren zu meinem Beruf gemacht.
+Schön, dass du da bist.
+Ich bin Sarah und lese für mein Leben gern.
+Deswegen habe ich das Lektorieren zu meinem Beruf gemacht.
 
-Lektorin ADM
+## Sarah Zeller
+
+**Seit 2022** Freie Lektorin ADM
+
+
+**Seit 2020** Wissenschaftliche Lektorin
+
+
+**Seit 2019** VWL-Studentin | Technische Universität Dresden
+
+
+**Seit 2018** B. A. Internationalen Beziehungen | Technische Universität Dresden
