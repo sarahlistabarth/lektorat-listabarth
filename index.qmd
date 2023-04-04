@@ -97,12 +97,41 @@ ab 2,6 ct / Wort
 
 ::: {.container .bg-dark}
 ::: grid
+::: {.g-col-8 .g-start-3 .text-center}
+# Ablauf
+:::
+:::
+
+::: grid
+::: {.g-col-12 .g-col-md-8 .g-start-md-3 .px-1}
+
+Ich möchte, dass jeder Schritt im Lektoratsprozess klar und verständlich ist.
+Deshalb habe ich hier den Ablauf einer Bestellung für dich aufgelistet. 
+<!-- Von der Kontaktaufnahme bis zur finalen Zahlung findest du hier alle wichtigen Schritte, die wir gemeinsam durchlaufen werden.  -->
+
+1.  Du gibst mir Bescheid, wie viele Worte dein Dokument hat und welches Lektorat du haben möchtest.
+2.  Ich erstelle ein individuelles Angebot für dich.
+3.  Du nimmst das Angebot an und sendest mir das Dokument als Word-Dokument zu.
+4.  Ich lektoriere dein Dokument innerhalb der vereinbarten Zeit (meist unter einer Woche).
+5.  Ich sende dir das lektorierte Dokument zurück und gebe dir Rückmeldung zu den 5 häufigsten Fehlern.
+6.  Nachdem ich das Dokument zurückgegeben habe, ist der vereinbarte Lohn fällig.
+
+Ich arbeite sorgfältig und effizient, um sicherzustellen, dass dein Dokument in bester Qualität zurückkommt.
+Wenn du Fragen oder Bedenken hast, stehe ich dir gerne zur Verfügung.
+
+:::
+:::
+:::
+
+::: {.container .bg-light}
+::: grid
 ::: {.g-col-12 .g-col-md-6 .g-start-md-3 .px-3}
 # Sollen wir loslegen?
 
-Deinen Text überarbeite ich gerne für Dich.
+Schreib mir gerne, wenn Du Fragen hast oder ein individuelles Angebot wünschst.
+Ich freue mich darauf, Dich kennenzulernen und Deine Arbeit zum Strahlen zu bringen!
 
-[Schreib mir eine Mail!](mailto:lektorat-zeller@posteo.de){.btn .btn-light}
+[Schreib mir eine Mail!](mailto:lektorat-zeller@posteo.de){.btn .btn-dark}
 :::
 :::
 :::
