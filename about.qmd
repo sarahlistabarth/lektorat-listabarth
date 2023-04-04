@@ -2,12 +2,47 @@
 title: "Über mich"
 image: assets/images/sarah_zeller.jpg
 about:
-  template: jolla
-  image-width: 10em
-  image-shape: round
-
+  template: solana
+  image-shape: rounded
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sarah-yvonne-zeller/
+    - icon: book
+      text: VfLL
+      href: https://www.lektoren.de/profil/sarah-zeller
 ---
 
-Schön, dass du da bist. Ich bin Sarah und lese für mein Leben gern. Deswegen habe ich das Lektorieren zu meinem Beruf gemacht.
+## Sarah Zeller
 
-Lektorin ADM
+Ich bin Sarah und lektoriere seit zwei Jahren mit Leidenschaft und Hingabe wissenschaftliche Arbeiten, vor allem Abschlussarbeiten für Studierende.
+Um Arbeiten noch besser betreuen zu können, habe ich 2022 das Zertifikat „Freie Lektorin ADM" erworben und bin dem Lektorierenden-Verband VfLL beigetreten.
+Außerdem arbeite ich mit Word-VBA-Makros, um meine Lektoratsprozesse effizienter zu gestalten und eine höhere Qualität meiner Arbeit zu gewährleisten.
+
+Ich habe VWL und Politikwissenschaften studiert und bringe daher logisches Denken für das Lektorat mit.
+Es macht mir unglaublich Spaß, mich in Texte zu vertiefen und dazu beizutragen, dass die Arbeiten der Studierenden auf einem hohen Niveau präsentiert werden.
+Ich finde es toll zu sehen, wie viel Arbeit und Zeit die Studierenden in ihre Arbeit stecken und wie viel Wissen sie dabei zusammentragen.
+
+Wenn Du auf der Suche nach professioneller Unterstützung für Deine wissenschaftliche Arbeit bist, dann bist Du bei mir richtig.
+Ich unterstütze Dich gerne dabei, Deine Arbeit auf ein höheres Niveau zu bringen und stehe Dir mit Fachwissen und Erfahrung zur Seite.
+
+# Sollen wir loslegen?
+
+Schreib mir gerne, wenn Du Fragen hast oder ein individuelles Angebot bekommen möchtest.
+Ich freue mich darauf, Dich kennenzulernen und Deine Arbeit abzurunden!
+
+[Schreib mir eine Mail!](mailto:lektorat-zeller@posteo.de){.btn .btn-dark}
+
+
+<!-- ## Sarah Zeller -->
+
+<!-- **Seit 2022** Freie Lektorin ADM -->
+
+
+<!-- **Seit 2020** Wissenschaftliche Lektorin -->
+
+
+<!-- **Seit 2019** VWL-Studentin | Technische Universität Dresden -->
+
+
+<!-- **Seit 2018** B. A. Internationalen Beziehungen | Technische Universität Dresden -->
