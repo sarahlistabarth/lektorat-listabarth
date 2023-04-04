@@ -1,9 +1,9 @@
 ---
-title: "Über mich"
-image: assets/images/sarah_zeller.jpg
+title: "Sarah"
+image: assets/images/230506-elbe-13.jpg
 about:
-  template: solana
-  image-shape: rounded
+  template: marquee
+  image-shape: rectangle
   links: 
     - icon: linkedin
       text: LinkedIn
@@ -13,22 +13,20 @@ about:
       href: https://www.lektoren.de/profil/sarah-zeller
 ---
 
+Ich lektoriere seit zwei Jahren mit Leidenschaft wissenschaftliche Arbeiten, vor allem Abschlussarbeiten für Studierende.
+Dafür habe ich 2022 das Zertifikat „Freie Lektorin ADM" erworben und bin dem Lektorierenden-Verband VfLL beigetreten.
+Außerdem arbeite ich mit Word-VBA-Makros, um meine Lektoratsprozesse effizienter zu gestalten und die Qualität meiner Arbeit zu gewährleisten.
 
-## Sarah Zeller
+Ich habe VWL und Politikwissenschaften studiert und bringe daher logisches Denken für das Lektorat mit.
+Es macht mir unglaublich Spaß, mich in Texte zu vertiefen und dazu beizutragen, dass die Arbeiten der Studierenden auf einem hohen Niveau präsentiert werden.
+Ich finde es toll zu sehen, wie viel Arbeit und Zeit die Studierenden in ihre Arbeit stecken und wie viel Wissen sie dabei zusammentragen.
 
-Schön, dass du da bist.
-Ich bin Sarah und lese für mein Leben gern.
-Deswegen habe ich das Lektorieren zu meinem Beruf gemacht.
+Wenn Du auf der Suche nach professioneller Unterstützung für Deine wissenschaftliche Arbeit bist, dann bist Du bei mir richtig.
+Ich unterstütze Dich dabei, Deine Arbeit auf ein höheres Niveau zu bringen, und stehe Dir mit Fachwissen und Erfahrung zur Seite.
 
-## Sarah Zeller
+# Sollen wir loslegen?
 
-<!-- **Seit 2022** Freie Lektorin ADM -->
+Schreib mir gerne, wenn Du Fragen hast oder ein Angebot bekommen möchtest.
+Ich freue mich darauf, Dich kennenzulernen und das Beste aus Deiner Arbeit zu holen!
 
-
-<!-- **Seit 2020** Wissenschaftliche Lektorin -->
-
-
-<!-- **Seit 2019** VWL-Studentin | Technische Universität Dresden -->
-
-
-<!-- **Seit 2018** B. A. Internationalen Beziehungen | Technische Universität Dresden -->
+[Schreib mir eine Mail!](mailto:lektorat-zeller@posteo.de){.btn .btn-dark}
