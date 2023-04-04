@@ -75,11 +75,11 @@ ab 1,3 ct / Wort
 ::: {.g-col-12 .g-col-md-5 .px-1}
 ::: card
 ::: {.card-title .text-center}
-### Lektorat Belletristik
+### Lektorat classic
 :::
 
 ::: {.card-subtitle .text-center}
-*historische Romane | Chick Lit | Fantasy *
+*wissenschaftliche Texte*
 
 ab 2,6 ct / Wort
 :::
@@ -88,38 +88,12 @@ ab 2,6 ct / Wort
 -   Anpassung von Rechtschreibung, Grammatik und Zeichensetzung
 -   Vereinheitlichung des Schreibstils
 -   Anpassung des Schreibstils an die Literaturart
--   Rückmeldung zu Logik und Spannungsbogen
--   Rückmeldung zu rotem Faden und Vollständigkeit
+-   Rückmeldung zu Logik, rotem Faden und Vollständigkeit
 :::
 :::
 :::
 :::
 :::
-
-<!-- ::: {.container-fluid .bg-dark} -->
-<!-- ::: grid -->
-<!-- ::: {.g-col-12 .text-center} -->
-<!-- ::: -->
-<!-- ::: -->
-
-<!-- ::: grid -->
-<!-- ::: {.g-col-12 .g-col-md-4 .g-start-md-2} -->
-<!-- ![](assets/images/sarah-aufm-rad.jpeg){.portrait} -->
-<!-- ::: -->
-
-<!-- ::: {.g-col-12 .g-col-md-6 .g-gap-md-1 .px-3} -->
-<!-- # Überarbeiten ist genau meins. -->
-
-<!-- Während Schreiben für mich interessant ist, liebe ich es zu überarbeiten.  -->
-
-<!-- Vielen Lesenden fällt es nicht direkt auf, wenn ein Komma fehlt, eine Schreibweise inkonsistent ist oder im Satz ein Füllwort steht; aber unbewusst passt etwas nicht ganz. -->
-
-<!-- Hier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolpern.  -->
-
-<!-- Ich passe sie an, und der Text wird runder. -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ::: -->
 
 ::: {.container .bg-dark}
 ::: grid
