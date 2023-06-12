@@ -144,20 +144,20 @@ Bitte installiere es daher gemeinsam mit diesem Makro.
 
 ::: {.panel-tabset}
 #### Vorher
-letzes    
-letzem    
-letzen  
+letztes    
+letztem    
+letzten  
   
 letzter    
-letze  
+letzte  
 
 #### Nachher
-letzer    
-letzer    
-letzer    
+letzter    
+letzter    
+letzter    
   
-letzerer    
-letzer  
+letzterer    
+letzter  
 :::
 
 ### AddS
