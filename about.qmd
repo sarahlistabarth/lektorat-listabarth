@@ -1,6 +1,9 @@
 ---
 title: "Sarah"
 image: assets/images/230506-elbe-13.jpg
+format:
+  html:
+    page-layout: article
 about:
   template: marquee
   image-shape: rectangle
