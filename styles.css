@@ -1,9 +1,3 @@
-/* css styles */
-/*body {
-  background-color: lightgrey
-}
-*/
-
 .card {
   background-color: white;
   color: rgb(90, 90, 90);
@@ -12,13 +6,8 @@
 
 #quarto-content .container, 
 #quarto-content .container-fluid {
-  /* margin-bottom: 5rem;*/
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-#quarto-content .container {
- /* padding: 0 5rem; */
 }
 
 .portrait {
