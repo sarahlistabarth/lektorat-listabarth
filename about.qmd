@@ -13,7 +13,6 @@ about:
       href: https://www.lektoren.de/profil/sarah-zeller
 ---
 
-<<<<<<< HEAD
 Ich lektoriere seit zwei Jahren mit Leidenschaft wissenschaftliche Arbeiten, vor allem Abschlussarbeiten für Studierende.
 Dafür habe ich 2022 das Zertifikat „Freie Lektorin ADM" erworben und bin dem Lektorierenden-Verband VfLL beigetreten.
 Außerdem arbeite ich mit Word-VBA-Makros, um meine Lektoratsprozesse effizienter zu gestalten und die Qualität meiner Arbeit zu gewährleisten.
