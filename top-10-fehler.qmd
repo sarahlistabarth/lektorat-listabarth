@@ -1,6 +1,9 @@
 ---
 title: "Top-10-Fehler"
 toc: true
+format:
+  html:
+    page-layout: article
 ---
 
 Einige Fehler kommen in fast jedem wissenschaftlichen Text vor.
@@ -87,8 +90,7 @@ Diese Zusammenfassung kann auch mit einem Ausblick kombiniert werden auf die fol
 [Einleitung](https://www.scribbr.de/aufbau-und-gliederung/einleitung-bachelorarbeit/) und [Fazit](https://www.scribbr.de/aufbau-und-gliederung/fazit-bachelorarbeit/) sollten immer bestimmte Elemente umfassen.
 Besonders häufig werden folgende vergessen:
 
-1.    **Einleitung: Überblick**. Am Ende der Einleitung sollte ein Ausblick auf die Arbeit gegeben werden. 
-Dabei sollte jedes Kapitel außer der Einleitung in 1--2 Sätzen zusammengefasst werden.
-2.    **Einleitung: Methodik**. In der Einleitung sollte kurz umrissen werden, auf welche Art die Forschungsfrage beantwortet wird -- etwa mit einer Literaturanalyse oder einem Feldexperiment.
-3.    **Fazit: Beantwortung der Forschungsfrage**. Im Fazit sollte die Forschungsfrage abschließend und eindeutig beantwortet werden.
-4.    **Fazit: weitere Forschung**. Zum Ende des Fazits sollte überlegt werden, wie andere Forschende auf diesen Erkenntnissen aufbauen können. Dies sollte in 3--5 Sätzen erläutert werden.
+1.  **Einleitung: Überblick**. Am Ende der Einleitung sollte ein Ausblick auf die Arbeit gegeben werden. Dabei sollte jedes Kapitel außer der Einleitung in 1--2 Sätzen zusammengefasst werden.
+2.  **Einleitung: Methodik**. In der Einleitung sollte kurz umrissen werden, auf welche Art die Forschungsfrage beantwortet wird -- etwa mit einer Literaturanalyse oder einem Feldexperiment.
+3.  **Fazit: Beantwortung der Forschungsfrage**. Im Fazit sollte die Forschungsfrage abschließend und eindeutig beantwortet werden.
+4.  **Fazit: weitere Forschung**. Zum Ende des Fazits sollte überlegt werden, wie andere Forschende auf diesen Erkenntnissen aufbauen können. Dies sollte in 3--5 Sätzen erläutert werden.
