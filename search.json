@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "datenschutz.html",
-    "href": "datenschutz.html",
-    "title": "Datenschutzbestimmungen",
-    "section": "",
-    "text": "Verantwortliche für die Datenverarbeitung ist:\nSarah Zeller\nRingstraße 5\n01067 Dresden\nlektorat-zeller@posteo.de\nIch freue mich über Dein Interesse an meiner Webseite. Der Schutz Deiner Privatsphäre ist mir sehr wichtig. Nachstehend informiere ich Dich ausführlich über den Umgang mit Deinen Daten."
-  },
-  {
     "objectID": "datenschutz.html#zugriffsdaten-und-hosting",
     "href": "datenschutz.html#zugriffsdaten-und-hosting",
     "title": "Datenschutzbestimmungen",
@@ -84,25 +77,11 @@
     "text": "Makros für Navigation\n\nHoldMySpot\nManchmal ist es nötig, im Text herumzuspringen, etwa um Textstellen miteinander zu vergleichen. Danach ist es nicht immer leicht, die Stelle wiederzufinden, von der ich gestartet bin. Dieses Makro setzt zuerst ein Lesezeichen und springt dann wieder zu diesem Lesezeichen zurück, wenn ich es wieder ausführe.\n\n\nCode\nSub HoldMySpot()\n' Add Bookmarks\n' Version: 20.07.2022\n' Sarah Zeller\n' Original: Shane Bryson\n\nDim temp As String\n\ntemp = \"holdMySpot\"\n\nWith ActiveDocument\nIf .Bookmarks.Exists(temp) Then\n    .Bookmarks(temp).Select\n    .Bookmarks(temp).Delete\nElse: .Bookmarks.Add Name:=temp\n    MsgBox \"Bookmark set\"\nEnd If\nEnd With\n\nEnd Sub"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ich hole das Beste aus Deinem Text.",
-    "section": "",
-    "text": "Ich hole das Beste aus Deinem Text.\nDu hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen!\n\n\n\n\n\n\n\n\n\n\nEin Lektorat macht Deinen Text runder.\nVielen Lesenden fällt es nicht direkt auf, wenn ein Komma fehlt, eine Schreibweise inkonsistent ist oder im Satz ein Füllwort steht; aber unbewusst passt dann etwas nicht ganz.\nHier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolpern. Ich passe sie an, und der Text wird runder.\n\n\n\n\n\n\n\n\n\nMein Angebot\n\n\n\n\nIm Lektorat passe ich Deinen Text immer so an, dass er den Regeln der deutschen Rechtschreibung entspricht. Zusätzlich kann ich Dir Feedback zu Struktur und Logik geben. Dementsprechend biete ich folgende Module an.\n\n\n\n\n\n\nBasislektorat\n\n\nalle Textsorten\nab 1,3 ct / Wort\n\n\n\nAnpassung von Rechtschreibung\nAnpassung von Grammatik\nAnpassung von Zeichensetzung\nVereinheitlichung des Schreibstils \n\n\n\n\n\nZusatzchecks für wissenschaftliche Texte\n\n\n\n\nKonsistenzcheck\n\n\n+ 1,3 ct / Wort\n\n\n\nRückmeldung zu Logik und Argumentation\nRückmeldung zu rotem Faden und Lesendenführung\nÜberprüfung auf Vollständigkeit\n\n\n\n\n\n\n\nGendercheck\n\n\n+ 0,6 ct / Wort\n\n\n\nÜberprüfung von konsistentem Gendern\nAnpassung von inkonsistenten Formulierungen\nindividuelle Wahl der Gendermethode, z. B. mit Doppelpunkt (:)\n\n\n\n\n\n\n\n\n\nAblauf\n\n\n\n\nIch möchte, dass jeder Schritt im Lektoratsprozess verständlich ist. Deshalb habe ich hier den Ablauf einer Bestellung für dich aufgelistet. \n\nDu gibst mir Bescheid, wie viele Worte dein Dokument hat und welches Lektorat du haben möchtest.\nIch erstelle ein individuelles Angebot für dich.\nDu nimmst das Angebot an und sendest mir das Dokument als Word-Dokument zu.\nIch lektoriere dein Dokument innerhalb der vereinbarten Zeit (meist unter einer Woche).\nIch sende dir das lektorierte Dokument zurück. Darin passe ich den Text mit Track-Changes an und setze dir Kommentare. \nNachdem ich das Dokument zurückgegeben habe, ist der vereinbarte Lohn fällig.\n\nIch arbeite sorgfältig und effizient, um sicherzustellen, dass dein Dokument schnell und in bester Qualität zurückkommt. Wenn du Fragen hast, stehe ich dir gerne zur Verfügung.\n\n\n\n\n\n\nSollen wir loslegen?\nSchreib mir gerne, wenn Du Fragen hast oder ein Angebot wünschst. Ich freue mich darauf, Dich kennenzulernen und das Beste aus deinem Text zu holen!\nSchreib mir eine Mail!"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Sarah",
     "section": "",
     "text": "Ich lektoriere seit zwei Jahren mit Leidenschaft wissenschaftliche Arbeiten, vor allem Abschlussarbeiten für Studierende. Dafür habe ich 2022 das Zertifikat „Freie Lektorin ADM” erworben und bin dem Lektorierenden-Verband VfLL beigetreten. Außerdem arbeite ich mit Word-VBA-Makros, um meine Lektoratsprozesse effizienter zu gestalten und die Qualität meiner Arbeit zu gewährleisten.\nIch habe VWL und Politikwissenschaften studiert und bringe daher logisches Denken für das Lektorat mit. Es macht mir unglaublich Spaß, mich in Texte zu vertiefen und dazu beizutragen, dass die Arbeiten der Studierenden auf einem hohen Niveau präsentiert werden. Ich finde es toll zu sehen, wie viel Arbeit und Zeit die Studierenden in ihre Arbeit stecken und wie viel Wissen sie dabei zusammentragen.\nWenn Du auf der Suche nach professioneller Unterstützung für Deine wissenschaftliche Arbeit bist, dann bist Du bei mir richtig. Ich unterstütze Dich dabei, Deine Arbeit auf ein höheres Niveau zu bringen, und stehe Dir mit Fachwissen und Erfahrung zur Seite.\n\nSollen wir loslegen?\nSchreib mir gerne, wenn Du Fragen hast oder ein Angebot bekommen möchtest. Ich freue mich darauf, Dich kennenzulernen und das Beste aus Deiner Arbeit zu holen!\nSchreib mir eine Mail!"
-  },
-  {
-    "objectID": "impressum.html",
-    "href": "impressum.html",
-    "title": "Impressum",
-    "section": "",
-    "text": "Angaben gemäß § 5 TMG\nSarah Zeller\nRingstraße 5\n01067 Dresden\nUStID: DE322982120\n\n\nKontakt\nTelefon: 01573 / 5726454\nE-Mail: lektorat-zeller@posteo.de"
   },
   {
     "objectID": "top-10-fehler.html",
