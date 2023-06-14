@@ -1,9 +1,6 @@
 ---
 title: "Top-10-Fehler"
 toc: true
-format:
-  html:
-    page-layout: article
 ---
 
 Einige Fehler kommen in fast jedem wissenschaftlichen Text vor.

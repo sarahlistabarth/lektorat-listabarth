@@ -42,7 +42,7 @@ format:
     code-fold: true
     code-copy: true
     code-summary: "VBA-Code zeigen"
-    page-layout: custom
+    # page-layout: custom
 
 editor: visual
 toc-title: Inhalt

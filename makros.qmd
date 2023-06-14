@@ -1,9 +1,6 @@
 ---
 title: "Word-Makros"
 toc: true
-format:
-  html:
-    page-layout: article
 ---
 
 Beim Lektorieren nutze ich viele Makros, denn sie beschleunigen den Überarbeitungsprozess.

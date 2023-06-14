@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    page-layout: custom
+---
+
+
 ::: {.container-fluid .bg-light}
 ::: grid
 ::: {.g-col-12 .g-col-md-4 .g-start-md-2 .d-flex .align-items-center .px-3}
