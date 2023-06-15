@@ -66,10 +66,10 @@ ab 1,3 ct / Wort
 :::
 
 ::: card-body
--   Anpassung von Rechtschreibung
--   Anpassung von Grammatik
--   Anpassung von Zeichensetzung
--   Vereinheitlichung des Schreibstils <!-- -   Anpassung des Schreibstils an die Literaturart -->
+-   {{< fa check >}} Anpassung von Rechtschreibung
+-   {{< fa check >}} Anpassung von Grammatik
+-   {{< fa check >}} Anpassung von Zeichensetzung
+-   {{< fa check >}} Vereinheitlichung des Schreibstils <!-- -   Anpassung des Schreibstils an die Literaturart -->
 :::
 :::
 :::
@@ -90,9 +90,9 @@ ab 1,3 ct / Wort
 :::
 
 ::: card-body
--   Rückmeldung zu Logik und Argumentation
--   Rückmeldung zu rotem Faden und Lesendenführung
--   Überprüfung auf Vollständigkeit
+-   {{< fa check >}} Rückmeldung zu Logik und Argumentation
+-   {{< fa check >}} Rückmeldung zu rotem Faden und Lesendenführung
+-   {{< fa check >}} Überprüfung auf Vollständigkeit
 :::
 :::
 :::
@@ -109,9 +109,9 @@ ab 1,3 ct / Wort
 :::
 
 ::: card-body
--   Überprüfung von konsistentem Gendern
--   Anpassung von inkonsistenten Formulierungen
--   individuelle Wahl der Gendermethode, z. B. mit Doppelpunkt (:)
+-   {{< fa check >}} Überprüfung von konsistentem Gendern
+-   {{< fa check >}} Anpassung von inkonsistenten Formulierungen
+-   {{< fa check >}} individuelle Wahl der Gendermethode, z. B. mit Doppelpunkt (:)
 :::
 :::
 :::

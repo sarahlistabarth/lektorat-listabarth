@@ -2,6 +2,7 @@
   background-color: white;
   color: rgb(90, 90, 90);
   margin-top: 2rem;
+  padding: 0 1em;
 }
 
 #quarto-content .container, 
@@ -16,7 +17,11 @@
 }
 
 /* Sets the marker to a ✔️ emoji character in cards*/
-.card ul { list-style-type: "✔️  "; }
+.card ul { 
+   list-style: none;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -.6em;}
 
 /* change button style */
 .btn {
