@@ -2,8 +2,17 @@
   background-color: white;
   color: rgb(90, 90, 90);
   margin-top: 2rem;
-  padding: 0 1em;
+ /* padding: 0 1em; */
 }
+
+.text-sans-serif {
+  font-family: var(--bs-body-font-family);
+}
+
+.text-serif {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 
 #quarto-content .container, 
 #quarto-content .container-fluid {
@@ -20,7 +29,7 @@
 .card ul { 
    list-style: none;
    margin-left: 0;
-   padding-left: 1em;
+   padding-left: 3em;
    text-indent: -.6em;}
 
 /* change button style */
