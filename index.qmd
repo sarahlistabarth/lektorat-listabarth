@@ -72,7 +72,7 @@ Dementsprechend biete ich folgende Module an.
 :::
 
 ::: {.card-subtitle .text-center .fs-3}
-ab 0,018 € / Wort
+ab 0,015 € / Wort
 :::
 
 -   {{< fa check >}} Anpassung von Rechtschreibung
@@ -100,7 +100,7 @@ ab 0,018 € / Wort
 :::
 
 ::: {.card-subtitle .text-center .fs-3}
-\+ 0,018 € / Wort
+\+ 0,015 € / Wort
 :::
 
 -   {{< fa check >}} Rückmeldung zu Logik und Argumentation
@@ -123,7 +123,7 @@ ab 0,018 € / Wort
 :::
 
 ::: {.card-subtitle .text-center .fs-3}
-\+ 0,009 € / Wort
+\+ 0,007 € / Wort
 :::
 
 -   {{< fa check >}} Überprüfung von konsistentem Gendern
