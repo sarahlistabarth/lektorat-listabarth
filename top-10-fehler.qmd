@@ -12,15 +12,15 @@ Die erste Hälfte bezieht sich darauf, wie Text geschrieben und formatiert wird.
 
 ### 1. Doppelte Satzzeichen
 
-Der Klassiker unter den doppelten Satzzeichen sind doppelte Leerzeichen.
-Sie kommen so schnell unter wie sie zu korrigieren sind: Nutze einfach die `Suchen und Ersetzen`-Funktion von Word, um doppelte Leerzeichen durch ein einfaches zu ersetzen.
+Der Klassiker unter den doppelten Satzzeichen ist das doppelte Leerzeichen.
+Es kommt so schnell unter, wie es zu korrigieren ist: Nutze einfach die `Suchen und Ersetzen`-Funktion von Word, um doppelte Leerzeichen durch ein einfaches zu ersetzen.
 So ist der Text schnell besser gesetzt.
 
 ### 2. Geschützte Leerzeichen
 
 Im Deutschen müssen manchmal geschützte Leerzeichen genutzt werden.
-Sie verhindern, dass zwischen den Wort davor und danach ein Absatz entsteht.
-In Word kannst du es verwenden, indem du `Strg + Shift + Leerzeichen` drückst.
+Sie verhindern, dass ein Absatz entsteht.
+In Word kannst du sie verwenden, indem du `Strg + Shift + Leerzeichen` drückst.
 In diesen zwei Fällen solltest du sie setzen:
 
 1.  bei Abkürzungen mit Punkten zwischen dem Punkt und dem nächsten Wort, etwa bei *z. B.* und
@@ -28,7 +28,7 @@ In diesen zwei Fällen solltest du sie setzen:
 
 ### 3. Gedankenstrich
 
-Zwischen zwei Zahlen steht immer ein Gedankenstrich.
+Um *bis* auszudrücken, steht wischen zwei Zahlen immer ein Gedankenstrich.
 Dieser kann mit `Strg + -(NumbBlock)` erstellt werden.
 Dann heißt es nicht *Seite 7-8*, sondern *Seite 7--8*.
 

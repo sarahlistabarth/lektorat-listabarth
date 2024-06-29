@@ -5,49 +5,45 @@ toc: true
 
 Verantwortliche für die Datenverarbeitung ist:
 
-Sarah Zeller  
-Ringstraße 5  
-01067 Dresden  
-lektorat-zeller@posteo.de
+Sarah Zeller\
+Ringstraße 5\
+01067 Dresden\
+lektorat-zeller\@posteo.de
 
-
-Ich freue mich über Dein Interesse an meiner Webseite.
-Der Schutz Deiner Privatsphäre ist mir sehr wichtig. 
-Nachstehend informiere ich Dich ausführlich über den Umgang mit Deinen Daten.
+Ich freue mich über Dein Interesse an meiner Webseite. Der Schutz Deiner Privatsphäre ist mir sehr wichtig. Nachstehend informiere ich Dich ausführlich über den Umgang mit Deinen Daten.
 
 ## Zugriffsdaten und Hosting
-Du kannst meine Webseite besuchen, ohne Angaben zu Deiner Person zu machen.
-Bei jedem Aufruf einer Webseite speichert der Webserver lediglich automatisch ein sogenanntes Server-Logfile, das z.B. den Namen der angeforderten Datei, Deine IP-Adresse, Datum und Uhrzeit des Abrufs, übertragene Datenmenge und den anfragenden Provider (Zugriffsdaten) enthält und den Abruf dokumentiert.
 
-
+Du kannst meine Webseite besuchen, ohne Angaben zu Deiner Person zu machen. Bei jedem Aufruf einer Webseite speichert der Webserver lediglich automatisch ein sogenanntes Server-Logfile, das z. B. den Namen der angeforderten Datei, Deine IP-Adresse, Datum und Uhrzeit des Abrufs, die übertragene Datenmenge und den anfragenden Provider (Zugriffsdaten) enthält und den Abruf dokumentiert.
 
 ## Datenerhebung und -verwendung zur Vertragsabwicklung
-Ich erhebe personenbezogene Daten, wenn Du uns diese im Rahmen Deines Auftrags oder bei einer Kontaktaufnahme (z.B. per E-Mail) mitteilst. 
-Pflichtfelder werden als solche gekennzeichnet, da ich in diesen Fällen die Daten zwingend zur Vertragsabwicklung, bzw. zur Bearbeitung der Kontaktaufnahme benötige und Du ohne deren Angabe den Auftrag nicht kommunizieren bzw. die Kontaktaufnahme nicht versenden kannst.
-Welche Daten erhoben werden, ist aus den jeweiligen Eingabeformularen ersichtlich. 
-Ich verwenden die von Dir mitgeteilten Daten gemäß Art. 6 Abs. 1 DSGVO.
+
+Ich erhebe personenbezogene Daten, wenn Du mir diese im Rahmen Deines Auftrags oder bei einer Kontaktaufnahme (z. B. per E-Mail) mitteilst. Pflichtfelder werden als solche gekennzeichnet, da ich in diesen Fällen die Daten zwingend zur Vertragsabwicklung, bzw. zur Bearbeitung der Kontaktaufnahme benötige und Du ohne deren Angabe den Auftrag nicht kommunizieren bzw. die Kontaktaufnahme nicht versenden kannst. Welche Daten erhoben werden, ist aus den jeweiligen Eingabeformularen ersichtlich. Ich verwende die von Dir mitgeteilten Daten gemäß Art. 6 Abs. 1 DSGVO.
 
 ## Datenweitergabe
+
 Ich gebe Deine Daten nicht weiter.
 
-
 ## Cookies und Webanalyse
+
 Auf dieser Webseite werden keine Cookies verwendet.
 
 ## Kontaktmöglichkeiten und Deine Rechte
+
 Als Betroffene/-r hast Du folgende Rechte:
 
-- gemäß Art. 15 DSGVO das Recht, in dem dort bezeichneten Umfang Auskunft über Deine von mir verarbeiteten personenbezogenen Daten zu verlangen;
-- gemäß Art. 16 DSGVO das Recht, unverzüglich die Berichtigung unrichtiger oder Vervollständigung Deiner bei mir gespeicherten personenbezogenen Daten zu verlangen;
-- gemäß Art. 17 DSGVO das Recht, die Löschung Deiner bei mir gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die weitere Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information notwendig ist.
+-   gemäß Art. 15 DSGVO das Recht, in dem dort bezeichneten Umfang Auskunft über Deine von mir verarbeiteten personenbezogenen Daten zu verlangen;
+-   gemäß Art. 16 DSGVO das Recht, unverzüglich die Berichtigung unrichtiger oder Vervollständigung Deiner bei mir gespeicherten personenbezogenen Daten zu verlangen;
+-   gemäß Art. 17 DSGVO das Recht, die Löschung Deiner bei mir gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die weitere Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information notwendig ist.
 
 Für Einwilligungen oder Widerspruch gegen eine bestimmte Datenverwendung wende Dich bitte direkt an mich über die Kontaktdaten im Impressum.
 
-Datenschutzbeauftragte:  
-Sarah Zeller  
-Ringstraße 5  
-01067 Dresden  
-lektorat-zeller@posteo.de
+Datenschutzbeauftragte:\
+Sarah Zeller\
+Ringstraße 5\
+01067 Dresden\
+lektorat-zeller\@posteo.de
 
 ## Widerspruchsrecht
-Soweit ich zur Wahrung der im Rahmen einer Interessensabwägung überwiegenden berechtigten Interessen personenbezogene Daten wie oben erläutert verarbeite, kannst Du dieser Verarbeitung mit Wirkung für die Zukunft widersprechen. 
+
+Soweit ich zur Wahrung der im Rahmen einer Interessensabwägung überwiegenden berechtigten Interessen personenbezogene Daten wie oben erläutert verarbeite, kannst Du dieser Verarbeitung mit Wirkung für die Zukunft widersprechen.

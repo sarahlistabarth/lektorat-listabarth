@@ -152,7 +152,8 @@ Deshalb habe ich hier den Ablauf einer Bestellung für dich aufgelistet.
 2.  Ich erstelle ein individuelles Angebot für dich.
 3.  Du nimmst das Angebot an und sendest mir das Dokument als Word-Dokument zu.
 4.  Ich lektoriere dein Dokument innerhalb der vereinbarten Zeit (meist unter einer Woche).
-5.  Ich sende dir das lektorierte Dokument zurück. Darin passe ich den Text mit Track-Changes an und setze dir Kommentare. <!-- und gebe dir Rückmeldung zu den 5 häufigsten Fehlern. -->
+Darin passe ich den Text mit Track-Changes an und setze dir Kommentare.
+5.  Ich sende dir das lektorierte Dokument zurück.  <!-- und gebe dir Rückmeldung zu den 5 häufigsten Fehlern. -->
 6.  Nachdem ich das Dokument zurückgegeben habe, ist der vereinbarte Lohn fällig.
 
 Ich arbeite sorgfältig und effizient, um sicherzustellen, dass dein Dokument schnell und in bester Qualität zurückkommt.

@@ -10,7 +10,7 @@ Beim Lektorieren nutze ich viele Makros, denn sie beschleunigen den Überarbeitu
 Word VBA Makros sind kleine Programme, die in der Programmiersprache VBA (Visual Basic for Applications) geschrieben wurden und in Microsoft Word ausgeführt werden können.
 Mit Makros können Veränderungen, die mehrere Tastaturanschläge benötigen, auf eine Tastenkombination gelegt werden.
 Das ist besonders praktisch bei Veränderungen, die häufig durchgeführt werden.
-Ein Beispiel ist folgende Veränderung:
+Ein Beispiel ist die gleichzeitige Ausführung folgender Veränderungen:
 
 -   zum Ende des Wortes springen
 -   den letzten Buchstaben eines Worts löschen,
@@ -34,17 +34,17 @@ Makros können in Word direkt installiert werden.
 Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros kann hineinkopiert werden.
 Um die folgenden Makros zu installieren, gehe folgendermaßen vor:
 
-1.    Suche dir das Makro aus
-2.    Klappe den VBA-Code aus (*VBA-Code zeigen*)
-3.    Kopiere den Code, indem du auf das Klemmbrett rechts klickst
-4.    Öffne den VBA-Code-Editor in Word: `Alt + F11` in Word drücken
-5.    Kopiere den VBA-Code ganz unten in das Fenster `Normal - New Macros (Code)`
+1.    Suche dir das Makro aus.
+2.    Klappe den VBA-Code aus (*VBA-Code zeigen*).
+3.    Kopiere den Code, indem du auf das Klemmbrett rechts klickst.
+4.    Öffne den VBA-Code-Editor in Word: `Alt + F11` in Word drücken.
+5.    Kopiere den VBA-Code ganz unten in das Fenster `Normal - New Macros (Code)`.
 
 
 6.    (*optional*) Weise dem Makro eine Tastenkombination zu, indem du auf `Datei` -- `Optionen` -- `Menüband anpassen` -- `Tastenkombinationen: Anpassen` gehst. 
 Hier kannst du unter `Kategorien` -- `Makros` bei `Befehl` das Makro aussuchen.
 Jetzt drücke die Tastenkombination, die du haben magst (z. B. `Strg + M`).
-Als letztes klickst du auf `Zuordnen`.
+Als Letztes klickst du auf `Zuordnen`.
 
 
 ```{r}
