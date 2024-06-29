@@ -1,1 +1,1 @@
-Sitemap: https://github.com/sarahzeller/lektorat-zeller/sitemap.xml
+Sitemap: https://sarahzeller.github.io/lektorat-zeller/sitemap.xml
