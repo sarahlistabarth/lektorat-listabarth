@@ -24,7 +24,7 @@ if (!"macros" %in% list.files()) {
 
 # Source R script from Github
 scrape_macro <- function(macro_name) {
-  url <- paste0("https://api.github.com/repos/szeller42/Word-macros/contents/",
+  url <- paste0("https://api.github.com/repos/sarahlistabarth/Word-macros/contents/",
                 macro_name,
                 "().vb",
                 collapse = "")

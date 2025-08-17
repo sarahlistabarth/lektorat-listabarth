@@ -8,10 +8,10 @@ about:
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/sarah-yvonne-zeller/
+      href: https://www.linkedin.com/in/sarah-listabarth/
     - icon: book
       text: VfLL
-      href: https://www.lektoren.de/profil/sarah-zeller
+      href: https://www.lektoren.de/profil/sarah-listabarth
 ---
 
 Ich lektoriere seit zwei Jahren mit Leidenschaft wissenschaftliche Arbeiten, vor allem Abschlussarbeiten für Studierende. Dafür habe ich 2022 das Zertifikat „Freie Lektorin ADM“ erworben und bin dem Lektorierenden-Verband VfLL beigetreten. Außerdem arbeite ich mit Word-VBA-Makros, um meine Lektoratsprozesse effizienter zu gestalten und die Qualität meiner Arbeit zu gewährleisten.

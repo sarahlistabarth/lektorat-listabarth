@@ -7,10 +7,10 @@ project:
 
 website:
   favicon: assets/images/pen-nib-solid.svg
-  title: "Lektorat Zeller"
+  title: "Lektorat Listabarth"
   page-footer: 
     left: 
-      - text: "Copyright Sarah Zeller"
+      - text: "Copyright Sarah Listabarth"
     right:
       - text: "Impressum"
         href: impressum.qmd
