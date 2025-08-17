@@ -10,8 +10,7 @@ format:
 ::: wrapper
 # Ich hole das Beste aus Deinem Text.
 
-Du hast so viel Zeit und Arbeit in deinen Text gesteckt.
-Lass das die Welt sehen!
+Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen!
 :::
 :::
 
@@ -28,8 +27,7 @@ Lass das die Welt sehen!
 
 Vielen Lesenden fällt es nicht direkt auf, wenn ein Komma fehlt, eine Schreibweise inkonsistent ist oder im Satz ein Füllwort steht; aber unbewusst passt dann etwas nicht ganz.
 
-Hier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolpern.
-Ich passe sie an, und der Text wird runder.
+Hier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolpern. Ich passe sie an, und der Text wird runder.
 :::
 
 <!-- ::: {.g-col-12 .g-col-md-4} -->
@@ -49,9 +47,7 @@ Ich passe sie an, und der Text wird runder.
 
 ::: grid
 ::: {.g-col-12 .g-col-md-8 .g-start-md-3 .align-items-center .px-3}
-Im Lektorat passe ich Deinen Text immer so an, dass er den Regeln der deutschen Rechtschreibung entspricht.
-Zusätzlich kann ich Dir Feedback zu Struktur und Logik geben.
-Dementsprechend biete ich folgende Module an.
+Im Lektorat passe ich Deinen Text immer so an, dass er den Regeln der deutschen Rechtschreibung entspricht. Zusätzlich kann ich Dir Feedback zu Struktur und Logik geben. Dementsprechend biete ich folgende Module an.
 :::
 :::
 
@@ -90,7 +86,6 @@ ab 0,015 € / Wort
 ::: {.g-col-12 .g-col-md-5 .g-start-md-2 .px-3}
 ::: card
 ::: card-body
-
 ::: text-end
 [{{< fa comment >}} Rückmeldung über Kommentare]{.badge .bg-warning .text-sans-serif}
 :::
@@ -113,7 +108,6 @@ ab 0,015 € / Wort
 ::: {.g-col-12 .g-col-md-5 .px-3}
 ::: card
 ::: card-body
-
 ::: text-end
 [{{< fa i-cursor >}} Vorschläge im Text]{.badge .bg-info .text-sans-serif}
 :::
@@ -144,20 +138,16 @@ ab 0,015 € / Wort
 
 ::: grid
 ::: {.g-col-12 .g-col-md-8 .g-start-md-3 .align-items-center .px-3 .text-serif}
-Ich möchte, dass jeder Schritt im Lektoratsprozess verständlich ist.
-Deshalb habe ich hier den Ablauf einer Bestellung für dich aufgelistet.
-<!-- Von der Kontaktaufnahme bis zur finalen Zahlung findest du hier alle wichtigen Schritte, die wir gemeinsam durchlaufen werden.  -->
+Ich möchte, dass jeder Schritt im Lektoratsprozess verständlich ist. Deshalb habe ich hier den Ablauf einer Bestellung für dich aufgelistet. <!-- Von der Kontaktaufnahme bis zur finalen Zahlung findest du hier alle wichtigen Schritte, die wir gemeinsam durchlaufen werden.  -->
 
 1.  Du gibst mir Bescheid, wie viele Worte dein Dokument hat und welche Module du buchen möchtest.
 2.  Ich erstelle ein individuelles Angebot für dich.
 3.  Du nimmst das Angebot an und sendest mir das Dokument als Word-Dokument zu.
-4.  Ich lektoriere dein Dokument innerhalb der vereinbarten Zeit (meist unter einer Woche).
-Darin passe ich den Text mit Track-Changes an und setze dir Kommentare.
-5.  Ich sende dir das lektorierte Dokument zurück.  <!-- und gebe dir Rückmeldung zu den 5 häufigsten Fehlern. -->
+4.  Ich lektoriere dein Dokument innerhalb der vereinbarten Zeit (meist unter einer Woche). Darin passe ich den Text mit Track-Changes an und setze dir Kommentare.
+5.  Ich sende dir das lektorierte Dokument zurück. <!-- und gebe dir Rückmeldung zu den 5 häufigsten Fehlern. -->
 6.  Nachdem ich das Dokument zurückgegeben habe, ist der vereinbarte Lohn fällig.
 
-Ich arbeite sorgfältig und effizient, um sicherzustellen, dass dein Dokument schnell und in bester Qualität zurückkommt.
-Wenn du Fragen hast, stehe ich dir gerne zur Verfügung.
+Ich arbeite sorgfältig und effizient, um sicherzustellen, dass dein Dokument schnell und in bester Qualität zurückkommt. Wenn du Fragen hast, stehe ich dir gerne zur Verfügung.
 :::
 :::
 :::
@@ -167,8 +157,7 @@ Wenn du Fragen hast, stehe ich dir gerne zur Verfügung.
 ::: {.g-col-12 .g-col-md-8 .g-start-md-3 .align-items-center .px-3}
 # Sollen wir loslegen?
 
-Schreib mir gerne, wenn Du Fragen hast oder ein Angebot wünschst.
-Ich freue mich darauf, Dich kennenzulernen und das Beste aus deinem Text zu holen!
+Schreib mir gerne, wenn Du Fragen hast oder ein Angebot wünschst. Ich freue mich darauf, Dich kennenzulernen und das Beste aus deinem Text zu holen!
 
 [Schreib mir eine Mail!](mailto:lektorat-zeller@posteo.de){.btn .btn-dark}
 :::

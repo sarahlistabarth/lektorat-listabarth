@@ -3,8 +3,7 @@ title: "Top-10-Fehler"
 toc: true
 ---
 
-Einige Fehler kommen in fast jedem wissenschaftlichen Text vor.
-Dabei können sie leicht vermieden werden!
+Einige Fehler kommen in fast jedem wissenschaftlichen Text vor. Dabei können sie leicht vermieden werden!
 
 ## Sprache
 
@@ -12,63 +11,45 @@ Die erste Hälfte bezieht sich darauf, wie Text geschrieben und formatiert wird.
 
 ### 1. Doppelte Satzzeichen
 
-Der Klassiker unter den doppelten Satzzeichen ist das doppelte Leerzeichen.
-Es kommt so schnell unter, wie es zu korrigieren ist: Nutze einfach die `Suchen und Ersetzen`-Funktion von Word, um doppelte Leerzeichen durch ein einfaches zu ersetzen.
-So ist der Text schnell besser gesetzt.
+Der Klassiker unter den doppelten Satzzeichen ist das doppelte Leerzeichen. Es kommt so schnell unter, wie es zu korrigieren ist: Nutze einfach die `Suchen und Ersetzen`-Funktion von Word, um doppelte Leerzeichen durch ein einfaches zu ersetzen. So ist der Text schnell besser gesetzt.
 
 ### 2. Geschützte Leerzeichen
 
-Im Deutschen müssen manchmal geschützte Leerzeichen genutzt werden.
-Sie verhindern, dass ein Absatz entsteht.
-In Word kannst du sie verwenden, indem du `Strg + Shift + Leerzeichen` drückst.
-In diesen zwei Fällen solltest du sie setzen:
+Im Deutschen müssen manchmal geschützte Leerzeichen genutzt werden. Sie verhindern, dass ein Absatz entsteht. In Word kannst du sie verwenden, indem du `Strg + Shift + Leerzeichen` drückst. In diesen zwei Fällen solltest du sie setzen:
 
 1.  bei Abkürzungen mit Punkten zwischen dem Punkt und dem nächsten Wort, etwa bei *z. B.* und
 2.  zwischen Zahlen und Einheiten, etwa *Kapitel 7* und *23 g*.
 
 ### 3. Gedankenstrich
 
-Um *bis* auszudrücken, steht wischen zwei Zahlen immer ein Gedankenstrich.
-Dieser kann mit `Strg + -(NumbBlock)` erstellt werden.
-Dann heißt es nicht *Seite 7-8*, sondern *Seite 7--8*.
+Um *bis* auszudrücken, steht wischen zwei Zahlen immer ein Gedankenstrich. Dieser kann mit `Strg + -(NumbBlock)` erstellt werden. Dann heißt es nicht *Seite 7-8*, sondern *Seite 7--8*.
 
 ### 4. Unwissenschaftliche Sprache
 
-Einige Begriffe sollten nicht verwendet werden, weil sie zu ungenau oder umgangssprachlich sind.
-Scribbr hat [hier](https://www.scribbr.de/wissenschaftliches-schreiben/verbotene-woerter-in-einer-abschlussarbeit/) einige aufgelistet.
+Einige Begriffe sollten nicht verwendet werden, weil sie zu ungenau oder umgangssprachlich sind. Scribbr hat [hier](https://www.scribbr.de/wissenschaftliches-schreiben/verbotene-woerter-in-einer-abschlussarbeit/) einige aufgelistet.
 
 ### 5. Gendern
 
-An vielen Universitäten ist Gendern mittlerweile vorgeschrieben.
-Das bedeutet, die Sprache so anzupassen, dass Menschen jeden Geschlechts beschrieben und angesprochen werden.
-Die meisten Universitäten haben dafür eigene Richtlinien.
-Hilfreiche Ressourcen für das Umformulieren sind:
+An vielen Universitäten ist Gendern mittlerweile vorgeschrieben. Das bedeutet, die Sprache so anzupassen, dass Menschen jeden Geschlechts beschrieben und angesprochen werden. Die meisten Universitäten haben dafür eigene Richtlinien. Hilfreiche Ressourcen für das Umformulieren sind:
 
 1.  [geschickt Gendern](https://geschicktgendern.de/)
 2.  [Genderwörterbuch](https://www.scribbr.de/gendern/woerterbuch/)
 
 ## Struktur
 
-Die zweite Hälfte bezieht sich darauf, wie du deinen Text strukturierst.
-Hier geht es darum, deine Gedanken für Lesende so zu strukturieren, dass sie ihnen leicht folgen können.
+Die zweite Hälfte bezieht sich darauf, wie du deinen Text strukturierst. Hier geht es darum, deine Gedanken für Lesende so zu strukturieren, dass sie ihnen leicht folgen können.
 
 ### 1. Alleinstehende Unterkapitel
 
-Während des Schreibprozesses passiert es immer wieder, dass einzelne Kapitel verschoben oder gelöscht werden.
-Dann kann es zu alleinstehenden Unterkapiteln kommen, sodass es z. 
-B.
-Kapitel 3.1 gibt, aber kein Kapitel 3.2.
-In solchen Fällen sollte das alleinstehende Unterkapitel aufgelöst werden.
+Während des Schreibprozesses passiert es immer wieder, dass einzelne Kapitel verschoben oder gelöscht werden. Dann kann es zu alleinstehenden Unterkapiteln kommen, sodass es z.  B. Kapitel 3.1 gibt, aber kein Kapitel 3.2. In solchen Fällen sollte das alleinstehende Unterkapitel aufgelöst werden.
 
 ### 2. Überschriften ohne beschreibenden Text
 
-Zwischen zwei Überschriften sollte immer mindestens ein Absatz stehen, sodass nie zwei Überschriften direkt aufeinander folgen.
-Dieser Absatz kann dafür genutzt werden, einen Überblick über das folgende Unterkapitel zu geben.
+Zwischen zwei Überschriften sollte immer mindestens ein Absatz stehen, sodass nie zwei Überschriften direkt aufeinander folgen. Dieser Absatz kann dafür genutzt werden, einen Überblick über das folgende Unterkapitel zu geben.
 
 ### 3. Zu kurze Absätze
 
-Ein Absatz besteht immer aus mindestens zwei Sätzen.
-Für Absätze mit nur einem Satz gibt es drei Möglichkeiten:
+Ein Absatz besteht immer aus mindestens zwei Sätzen. Für Absätze mit nur einem Satz gibt es drei Möglichkeiten:
 
 1.  den Satz an den vorherigen oder nachfolgenden Absatz anhängen,
 2.  den Satz in mehrere Sätze aufteilen aufteilen oder
@@ -76,16 +57,13 @@ Für Absätze mit nur einem Satz gibt es drei Möglichkeiten:
 
 ### 4. Fehlende Führung von Lesenden
 
-Wissenschaftliche Arbeiten sind deutlich leichter zu lesen, wenn zwischendurch kurze Ausblicke darauf gegeben werden, was noch kommt.
-Das kann zu Beginn eines Kapitels sein, aber auch zu Beginn eines Absatzes.
+Wissenschaftliche Arbeiten sind deutlich leichter zu lesen, wenn zwischendurch kurze Ausblicke darauf gegeben werden, was noch kommt. Das kann zu Beginn eines Kapitels sein, aber auch zu Beginn eines Absatzes.
 
-Genauso hilfreich ist es, Gedanken zusammenzufassen -- ebenfalls zum Ende eines Kapitels oder Absatzes.
-Diese Zusammenfassung kann auch mit einem Ausblick kombiniert werden auf die folgenden Abschnitte.
+Genauso hilfreich ist es, Gedanken zusammenzufassen -- ebenfalls zum Ende eines Kapitels oder Absatzes. Diese Zusammenfassung kann auch mit einem Ausblick kombiniert werden auf die folgenden Abschnitte.
 
 ### 5. Fehlende Elemente in Einleitung und Fazit
 
-[Einleitung](https://www.scribbr.de/aufbau-und-gliederung/einleitung-bachelorarbeit/) und [Fazit](https://www.scribbr.de/aufbau-und-gliederung/fazit-bachelorarbeit/) sollten immer bestimmte Elemente umfassen.
-Besonders häufig werden folgende vergessen:
+[Einleitung](https://www.scribbr.de/aufbau-und-gliederung/einleitung-bachelorarbeit/) und [Fazit](https://www.scribbr.de/aufbau-und-gliederung/fazit-bachelorarbeit/) sollten immer bestimmte Elemente umfassen. Besonders häufig werden folgende vergessen:
 
 1.  **Einleitung: Überblick**. Am Ende der Einleitung sollte ein Ausblick auf die Arbeit gegeben werden. Dabei sollte jedes Kapitel außer der Einleitung in 1--2 Sätzen zusammengefasst werden.
 2.  **Einleitung: Methodik**. In der Einleitung sollte kurz umrissen werden, auf welche Art die Forschungsfrage beantwortet wird -- etwa mit einer Literaturanalyse oder einem Feldexperiment.
