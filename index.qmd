@@ -16,7 +16,7 @@ Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-![](assets/images/230506-elbe-10_portrait.jpg){fig-alt="Sarah Listabarth liest an der Elbe."}
+![](assets/images/230506-elbe-10_portrait.webp){fig-alt="Sarah Listabarth liest an der Elbe."}
 :::
 :::
 :::

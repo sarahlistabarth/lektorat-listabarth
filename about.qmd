@@ -1,6 +1,6 @@
 ---
 title: "Sarah"
-image: assets/images/230506-elbe-13.jpg
+image: assets/images/230506-elbe-13.webp
 image-alt: "Sarah Listabarths Porträt"
 description-meta: Sarah Listabarth ist professionelle Lektorin ADM für wissenschaftliche Texte, in Word, LaTeX und Overleaf.
 
