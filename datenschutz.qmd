@@ -1,6 +1,7 @@
 ---
 title: "Datenschutzbestimmungen"
 toc: true
+description-meta: Datenschutzbestimmungen für diese Seite
 ---
 
 Verantwortliche für die Datenverarbeitung ist:
@@ -8,7 +9,7 @@ Verantwortliche für die Datenverarbeitung ist:
 Sarah Listabarth\
 Reitbahnstr. 18\
 01069 Dresden\
-lektorat-zeller\@posteo.de
+lektorat-listabarth\@posteo.de
 
 Ich freue mich über Dein Interesse an meiner Webseite. Der Schutz Deiner Privatsphäre ist mir sehr wichtig. Nachstehend informiere ich Dich ausführlich über den Umgang mit Deinen Daten.
 
@@ -42,7 +43,7 @@ Datenschutzbeauftragte:\
 Sarah Listabarth\
 Reitbahnstr. 18\
 01069 Dresden\
-lektorat-zeller\@posteo.de
+lektorat-listabarth\@posteo.de
 
 ## Widerspruchsrecht
 

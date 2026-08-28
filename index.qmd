@@ -159,7 +159,7 @@ Ich arbeite sorgfältig und effizient, um sicherzustellen, dass dein Dokument sc
 
 Schreib mir gerne, wenn Du Fragen hast oder ein Angebot wünschst. Ich freue mich darauf, Dich kennenzulernen und das Beste aus deinem Text zu holen!
 
-[Schreib mir eine Mail!](mailto:lektorat-zeller@posteo.de){.btn .btn-dark}
+[Schreib mir eine Mail!](mailto:lektorat-listabarth@posteo.de){.btn .btn-dark}
 :::
 :::
 :::

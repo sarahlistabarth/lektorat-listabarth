@@ -27,7 +27,7 @@ website:
           - href: makros.qmd
     right:
       - text: "{{< fa envelope >}}"
-        href: mailto:s.zeller@posteo.net
+        href: mailto:lektorat-listabarth@posteo.de
   search: 
     location: navbar
     type: overlay
