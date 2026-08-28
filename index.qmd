@@ -42,7 +42,7 @@ Hier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolper
 
 ::: grid
 ::: {.g-col-12 .g-col-md-8 .g-start-md-3 .align-items-center .px-3}
-Im Lektorat passe ich Deinen Text immer so an, dass er den Regeln der deutschen Rechtschreibung entspricht -- wenn gewünscht, auch für LaTeX-Texte in Overleaf. Zusätzlich kann ich Dir Feedback zu Struktur und Logik geben. Dementsprechend biete ich folgende Module an.
+Im Lektorat passe ich Deinen Text an -- wenn gewünscht, auch für LaTeX-Texte in Overleaf. Dabei entspricht der angepasste Text immer den Regeln der deutschen Rechtschreibung. Zusätzlich kann ich Dir Feedback zu Struktur und Logik geben. Dementsprechend biete ich folgende Module an.
 :::
 :::
 
