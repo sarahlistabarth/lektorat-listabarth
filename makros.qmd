@@ -1,6 +1,7 @@
 ---
 title: "Word-Makros"
 toc: true
+description-meta: Diese Makros helfen beim Lektorieren in Word.
 ---
 
 Beim Lektorieren nutze ich viele Makros, denn sie beschleunigen den Überarbeitungsprozess.

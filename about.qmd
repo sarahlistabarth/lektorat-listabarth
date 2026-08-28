@@ -1,6 +1,8 @@
 ---
 title: "Sarah"
 image: assets/images/230506-elbe-13.jpg
+image-alt: "Sarah Listabarths Porträt"
+description-meta: Sarah Listabarth ist professionelle Lektorin ADM für wissenschaftliche Texte, in Word, LaTeX und Overleaf.
 
 about:
   template: marquee
@@ -14,7 +16,7 @@ about:
       href: https://www.lektoren.de/profil/sarah-listabarth
 ---
 
-Ich lektoriere seit zwei Jahren mit Leidenschaft wissenschaftliche Arbeiten, vor allem Abschlussarbeiten für Studierende. Dafür habe ich 2022 das Zertifikat „Freie Lektorin ADM“ erworben und bin dem Lektorierenden-Verband VfLL beigetreten. Außerdem arbeite ich mit Word-VBA-Makros, um meine Lektoratsprozesse effizienter zu gestalten und die Qualität meiner Arbeit zu gewährleisten.
+Ich lektoriere seit über fünf Jahren mit Leidenschaft wissenschaftliche Arbeiten, vor allem Abschlussarbeiten für Studierende. Dafür habe ich auch 2022 das Zertifikat „Freie Lektorin ADM“ erworben und bin dem Lektorierenden-Verband VfLL beigetreten. Außerdem arbeite ich mit Word-VBA-Makros, um meine Lektoratsprozesse effizienter zu gestalten und die Qualität meiner Arbeit zu gewährleisten.
 
 Ich habe VWL und Politikwissenschaften studiert und bringe daher logisches Denken für das Lektorat mit. Es macht mir unglaublich Spaß, mich in Texte zu vertiefen und dazu beizutragen, dass die Arbeiten der Studierenden auf einem hohen Niveau präsentiert werden. Ich finde es toll zu sehen, wie viel Arbeit und Zeit die Studierenden in ihren Text stecken und wie viel Wissen sie dabei zusammentragen.
 

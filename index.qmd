@@ -2,6 +2,7 @@
 format:
   html:
     page-layout: custom
+description-meta: Sarah Listabarth ist Lektorin für wissenschaftliche Texte, in Word, LaTeX und Overleaf.
 ---
 
 ::: {.container-fluid .bg-light}
@@ -15,7 +16,7 @@ Du hast so viel Zeit und Arbeit in deinen Text gesteckt. Lass das die Welt sehen
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-![](assets/images/230506-elbe-10_portrait.jpg)
+![](assets/images/230506-elbe-10_portrait.jpg){fig-alt="Sarah Listabarth liest an der Elbe."}
 :::
 :::
 :::
@@ -29,12 +30,6 @@ Vielen Lesenden fällt es nicht direkt auf, wenn ein Komma fehlt, eine Schreibwe
 
 Hier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolpern. Ich passe sie an, und der Text wird runder.
 :::
-
-<!-- ::: {.g-col-12 .g-col-md-4} -->
-
-<!-- ![](assets/images/230506-elbe-2.jpg){.portrait} -->
-
-<!-- ::: -->
 :::
 :::
 

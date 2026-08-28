@@ -1,6 +1,7 @@
 ---
 title: "Top-10-Fehler"
 toc: true
+description-meta: Diese Fehler machen Studierende am häufigsten bei ihren Abschlussarbeiten.
 ---
 
 Einige Fehler kommen in fast jedem wissenschaftlichen Text vor. Dabei können sie leicht vermieden werden!
