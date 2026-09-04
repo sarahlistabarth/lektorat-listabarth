@@ -21,8 +21,7 @@
 }
 
 .portrait {
-  height: .4;
-  width: auto;
+  border-radius: 1em;
 }
 
 /* Sets the marker to a ✔️ emoji character in cards*/
