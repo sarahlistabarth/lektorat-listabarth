@@ -38,7 +38,8 @@ Hier komme ich ins Spiel: Ich finde die Kleinigkeiten, über die Lesende stolper
 :::
 :::
 
-::: {.container .bg-light}
+::: {.container-fluid .bg-light}
+:::container
 ::: grid
 ::: {.g-col-8 .g-start-3 .text-center}
 # Mein Angebot
@@ -131,8 +132,10 @@ Dementsprechend biete ich folgende Module an.
 :::
 :::
 :::
+:::
 
-::: {.container .bg-dark}
+::: {.container-fluid .bg-dark}
+::: container
 ::: grid
 ::: {.g-col-8 .g-start-3 .text-center}
 # Ablauf
@@ -156,8 +159,10 @@ Ich arbeite sorgfältig und effizient, um sicherzustellen, dass Ihr Dokument sch
 :::
 :::
 :::
+:::
 
-::: {.container .bg-light}
+::: {.container-fluid .bg-light}
+::: container
 ::: grid
 ::: {.g-col-12 .g-col-md-8 .g-start-md-3 .align-items-center .px-3}
 # Sollen wir loslegen?
@@ -165,6 +170,7 @@ Ich arbeite sorgfältig und effizient, um sicherzustellen, dass Ihr Dokument sch
 Schreiben Sie mir gerne, wenn Sie Fragen haben oder ein Angebot wünschen. Ich freue mich darauf, Sie kennenzulernen und das Beste aus Ihrem Text zu holen!
 
 [Schreiben Sie mir eine Mail!](mailto:lektorat-listabarth@posteo.de){.btn .btn-dark}
+:::
 :::
 :::
 :::
