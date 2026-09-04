@@ -33,19 +33,19 @@ Dadurch können Fehler und Änderungen schnell und einfach gefunden und korrigie
 
 Makros können in Word direkt installiert werden.
 Dabei wird ein neues Makro erstellt, und der Code eines vorprogrammierten Makros kann hineinkopiert werden.
-Um die folgenden Makros zu installieren, gehe folgendermaßen vor:
+Um die folgenden Makros zu installieren, gehen Sie folgendermaßen vor:
 
-1.    Suche dir das Makro aus.
-2.    Klappe den VBA-Code aus (*VBA-Code zeigen*).
-3.    Kopiere den Code, indem du auf das Klemmbrett rechts klickst.
-4.    Öffne den VBA-Code-Editor in Word: `Alt + F11` in Word drücken.
-5.    Kopiere den VBA-Code ganz unten in das Fenster `Normal - New Macros (Code)`.
+1.    Suchen Sie das Makro aus.
+2.    Klappen Sie den VBA-Code aus (*VBA-Code zeigen*).
+3.    Kopieren Sie den Code, indem Sie auf das Klemmbrett rechts klicken.
+4.    Öffnen Sie den VBA-Code-Editor in Word: `Alt + F11` in Word drücken.
+5.    Kopieren Sie den VBA-Code ganz unten in das Fenster `Normal - New Macros (Code)`.
 
 
-6.    (*optional*) Weise dem Makro eine Tastenkombination zu, indem du auf `Datei` -- `Optionen` -- `Menüband anpassen` -- `Tastenkombinationen: Anpassen` gehst. 
-Hier kannst du unter `Kategorien` -- `Makros` bei `Befehl` das Makro aussuchen.
-Jetzt drücke die Tastenkombination, die du haben magst (z. B. `Strg + M`).
-Als Letztes klickst du auf `Zuordnen`.
+6.    (*optional*) Weisen Sie dem Makro eine Tastenkombination zu, indem Sie auf `Datei` -- `Optionen` -- `Menüband anpassen` -- `Tastenkombinationen: Anpassen` gehen. 
+Hier können Sie unter `Kategorien` -- `Makros` bei `Befehl` das Makro aussuchen.
+Jetzt drücken Sie die Tastenkombination, die Sie haben mögen (z. B. `Strg + M`).
+Als Letztes klicken Sie auf `Zuordnen`.
 
 
 ```{r}
@@ -65,7 +65,7 @@ Wenn der letzte Buchstabe *e* ist, wird hinten ein *m* hinzugefügt.
 
 ::: {.callout-tip}
 Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
-Bitte installiere es daher gemeinsam mit diesem Makro.
+Bitte installieren Sie es daher gemeinsam mit diesem Makro.
 :::
 
 ```{default}
@@ -99,7 +99,7 @@ Wenn der letzte Buchstabe *n* ist, wird stattdessen *en* hinten an das Wort ange
 
 ::: {.callout-tip}
 Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
-Bitte installiere es daher gemeinsam mit diesem Makro.
+Bitte installieren Sie es daher gemeinsam mit diesem Makro.
 :::
 
 ```{default}
@@ -134,7 +134,7 @@ Wenn der letzte Buchstabe *n* ist, wird stattdessen *er* hinten an das Wort ange
 
 ::: {.callout-tip}
 Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
-Bitte installiere es daher gemeinsam mit diesem Makro.
+Bitte installieren Sie es daher gemeinsam mit diesem Makro.
 :::
 
 ```{default}
@@ -168,7 +168,7 @@ Wenn der letzte Buchstabe *s* ist, wird hinten ein *es* hinzugefügt.
 
 ::: {.callout-tip}
 Dieses Makro verwendet das [MoveToEndOfWord](#move_to)-Makro.
-Bitte installiere es daher gemeinsam mit diesem Makro.
+Bitte installieren Sie es daher gemeinsam mit diesem Makro.
 :::
 
 ```{default}
